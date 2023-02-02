@@ -1,0 +1,48 @@
+project:
+  type: website
+  resources:
+    - "images/kidney.png"
+    
+execute:
+  freeze: auto
+  
+website:
+  favicon: images/kidney.png
+  title: "My PhD Journey Documentation"
+  site-url: https:// danyangdai.github.io/PhD_journey
+  description: 'Daily journal for my PhD study'
+  repo-url: https://github.com/DanyangDai/PhD_journey
+  repo-actions: [edit, issue]
+
+  twitter-card:
+    creator: "@Daidaidai2014"
+    image: "/images/twitter-card.png"
+
+  navbar:
+    right:
+      - text: About
+        href: about.qmd
+      - icon: github
+        href: https://github.com/DanyangDai/PhD_journey
+        aria-label: GitHub repo
+      - icon: twitter
+        href: https://twitter.com/Daidaidai2014
+        aria-label: Daidai's Twitter
+
+  page-footer:
+    right: "This blog is built with ❤️ and [Quarto](https://quarto.org/)."
+    left: |
+      Proudly supported by
+      [![](https://www.rstudio.com/wp-content/uploads/2018/10/RStudio-Logo-flat.svg){fig-alt="RStudio" width=65px}](https://www.rstudio.com)
+
+format:
+  html:
+    theme:
+      light: [litera, styles.scss]
+      dark: [darkly, styles-dark.scss]
+    highlight-style: a11y-dark
+    mainfont: "Atkinson Hyperlegible"
+    code-copy: true
+    code-overflow: wrap
+
+editor: visual

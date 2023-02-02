@@ -1,0 +1,14 @@
+.Rproj.user
+.Rhistory
+.Rdata
+.httr-oauth
+.DS_Store
+*.key
+_site/
+/.quarto/
+*tweet-image.png
+post-images/
+post-tweet-images/
+drafts/
+
+/.quarto/
