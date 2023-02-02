@@ -9,7 +9,7 @@ execute:
 website:
   favicon: images/kidney.png
   title: "My PhD Journey Documentation"
-  site-url: https:// danyangdai.github.io/PhD_diary
+  site-url: https://danyangdai.github.io/PhD_diary/
   description: 'Daily journal for my PhD study'
   repo-url: https://github.com/DanyangDai/PhD_diary
   repo-actions: [edit, issue]
@@ -23,7 +23,7 @@ website:
       - text: About
         href: about.qmd
       - icon: github
-        href: https://github.com/DanyangDai/PhD_journey
+        href: https://github.com/DanyangDai/PhD_diary
         aria-label: GitHub repo
       - icon: twitter
         href: https://twitter.com/Daidaidai2014
