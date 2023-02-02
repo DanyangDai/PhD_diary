@@ -9,9 +9,9 @@ execute:
 website:
   favicon: images/kidney.png
   title: "My PhD Journey Documentation"
-  site-url: https:// danyangdai.github.io/PhD_journey
+  site-url: https:// danyangdai.github.io/PhD_diary
   description: 'Daily journal for my PhD study'
-  repo-url: https://github.com/DanyangDai/PhD_journey
+  repo-url: https://github.com/DanyangDai/PhD_diary
   repo-actions: [edit, issue]
 
   twitter-card:
