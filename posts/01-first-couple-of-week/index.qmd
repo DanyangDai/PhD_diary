@@ -1,7 +1,8 @@
 ---
 title: "Starting PhD - First week"
 date: "2023-01-31"
-categories: [Diary]
+categories: 
+  - diary
 image: "featured.jpeg"
 ---
 
@@ -44,4 +45,3 @@ So yeah, due to no access to the toilet and no supervisor, that's all the office
 ### Made my very first friend in Brisbane
 
 Went out for dinner with her and we really hit it off. Going out again soon. `r emo::ji("heart")`
-

@@ -1,0 +1,52 @@
+---
+title: "Second week PhD - cried already when debugging"
+date: "2023-02-03"
+categories:
+  - debug
+  - github
+image: "featured.jpeg"
+---
+
+```{r}
+#| echo: fenced
+library(emo)
+library(readr)
+```
+
+
+## Second week highlight - Debugging 
+
+### Bug 1 - After updating to the lastest patients logic, lost around 1000 patients for the study
+
+`r emo::ji("explode")` After carefully comparing thousands of lines of code, I was finally able to get the patients outcome add up to the correct amount. However, we originally would have around 2800 patients for our study. That's not a great start for my PhD, reducing study cohort from 2800 to 1300. I was definitely panicking. I kept telling myself, I need to find out why some of them are not included in the cohort any more. 
+
+Looking through the updated table 1 for another study, I found out that their cohort has a significant decrease (around 2000ish) after changing the logic on outcome. So that means I am expected to have less patients for my study. I was wondering if that is because the patients I have might not have an outcome as they are more recent. After looking into a few lost data points, I found out that is not the case.  
+
+I have already took a deep dive into all the workflow, database, many different scripts trying to identify the problem. Then it hit me, could it be that cohort definition was different? So I went back and checked when the cohort is first being defined and it turns out that the updated code uses `date > 2020-01 ` and `date < 2022-10`. Ah ha, it actually should have been `date >= 2020-01 ` and `date <= 2022-10`. After re-defining the variable, I've got 2000ish patients for my study which was such a relief. Note for myself, when comparing datetime, should use `readr::parse_date("2020-01", "%Y-%m")`. `r emo::ji("ask")` 
+
+
+
+### Bug 2 - Quarto publishing website via github action failed 
+
+With this blogging website, I was planning to use the github action to prompt the updates automatically when I add a post. That means that this github action would need to able to render and publish. This is the first time I tried using github action. Before for my website, I was using [Netlify](https://www.netlify.com) to deploy and publishing my website. (It's pretty good and easy. Would recommend.) I was trying the github action that [mine-cetinkaya-rundel](https://github.com/mine-cetinkaya-rundel/quarto-tip-a-day) was using for the github action. It was giving me error messages as below:  ![](/posts/02-second-week-PhD/error1.png)
+
+
+I wasn't sure about why this is the case so I consulted with the expert - my partner [Mitch](https://github.com/mitchelloharawild). He reckon that the this github action was a bit outdated and he recommend using the [Quarto recommended Github action](https://github.com/quarto-dev/quarto-actions). After trying the new github action, I've got new error message when trying to publish and deploying. ![](/posts/02-second-week-PhD/error2.png)
+
+
+I was struggling to find there this `_publish.yml` is generated and I can't seem to find any reference about this. I spent a long time researching about this problem but unfortunately failed at this. 
+
+I moved on to using `quarto publish gh-pages` in terminal. 
+
+### Bug 3 - [Github authentication](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github) failed using terminal
+
+I am not very familiar using terminal for github let alone facing this authentication error. I first thought that I got my password wrong but after checking it is the correct one. The first suggestion I tried is using Person Access Token (PAT). I generated my token from Github and copied the password. But I don't know how to use it. I tired `usethis` package which it seems to be pretty good. It stores the PAT in the `renv`. How to use it for authentication? I just tried use that as my Github password when terminal asked me to enter password. It doesn't fix the authentication problem. 
+
+I have to say I tried so many things and a lot of them didn't work. I also tried a whole bunch stuff that might leads to the success. For mac user, try this:[ Message "Support for password authentication was removed. Please use a personal access token instead."](https://stackoverflow.com/questions/68775869/message-support-for-password-authentication-was-removed-please-use-a-personal). 
+
+At the end of the day, something worked out for me. I think I would need to be better at documenting errors and solutions. When I am debugging, it's easy to loss track what you've tried. Still figuring out the best practice for debugging workflow.  
+
+
+
+
+

@@ -10,7 +10,7 @@ website:
   favicon: images/kidney.png
   title: "My PhD Journey Documentation"
   site-url: https://danyangdai.github.io/PhD_diary/
-  description: 'Daily journal for my PhD study'
+  description: 'Daily/Weekly journal for my PhD study'
   repo-url: https://github.com/DanyangDai/PhD_diary
   repo-actions: [edit, issue]
 
@@ -28,6 +28,9 @@ website:
       - icon: twitter
         href: https://twitter.com/Daidaidai2014
         aria-label: Daidai's Twitter
+      - icon: rss-fill
+        href: index.xml
+        aria-label: RSS
 
   page-footer:
     right: "This blog is built with ❤️ and [Quarto](https://quarto.org/)."
