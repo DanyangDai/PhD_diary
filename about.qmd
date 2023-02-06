@@ -12,6 +12,6 @@ about:
       href: https://github.com/DanyangDai/PhD_diary
 ---
 
-This is a simple Quarto Daily Blog post to documentation my PhD journey. Pretty much a shorthand that remind myself what I did everyday and my own thoughts. My research focus on the chronic organ injuries resulting from infectious epidemics where we use acute kidney injury post COVID-19 Omicron surge as an exemplar. If you are interested in my research, please feel free to reach out via Twitter or Github. As the data for my research study is confidential, technical research progress will not be shared here.
+I am Daidai, first year PhD student at University of Queensland. My research focus on the chronic organ injuries resulting from infectious epidemics where we use acute kidney injury post COVID-19 Omicron surge as an exemplar. If you are interested in my research, please feel free to reach out via Twitter or Github. This is a simple Quarto Daily Blog post to documentation my PhD journey. Pretty much a shorthand that remind myself what I did everyday and my own thoughts. As the data for my research study is confidential, technical research progress will not be shared here.
 
 Big thanks to [mine-cetinkaya-rundel](https://github.com/mine-cetinkaya-rundel/quarto-tip-a-day) who developed this Quarto Daily Blog post workflow.
