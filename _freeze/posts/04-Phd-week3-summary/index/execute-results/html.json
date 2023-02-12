@@ -1,0 +1,14 @@
+{
+  "hash": "3479be978432962a201e20c41170b6b4",
+  "result": {
+    "markdown": "---\ntitle: \"Week 3 summary - Ups and downs \"\ndate: \"2023-2-10\"\ncategories: \n  - literature reviews\n  - worrys \nimage: \"featured.jpeg\"\n---\n\n::: {.cell}\n\n````{.cell-code}\n```{{r}}\nlibrary(emo)\n```\n````\n:::\n\n\n## Worrying about the PhD study - Ups and downs \n\n### Had very first PhD catch up with principle supervisor \n\nSo happy that JP is feeling better and back at work. I was so happy! We had a very short catch up on my future career planning and he gave great advices. Lots of potential opportunities out there. From the short 30mins chat, he super supportive and happy to help me with whatever I need. 👼 \n\nSee meeting minutes in PhD_Projects.\n\n\n\n### Updated Pre-Omicron cohort to 6 months \n\nBoth Omicron and Pre-cohort table 1s are ready to go. See dropboxs and UQ_ISARIC_Omicron. \n\nLooked up paper: [An international observational study to\nassess the impact of the Omicron variant\nemergence on the clinical epidemiology\nof COVID-19\nin hospitalised patients](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9534549/) which uses the same dataset. They defined the Pre-Omicron period as two-month prior 10\\% of Omicron. Omicron period as two-month post 90\\% of Omicron for each country. That means each country has a different Omicron and Pre-Omicron period. I pulled the data from Github repo: [globaldothealth\n/covid19-variants-summary](https://github.com/globaldothealth/covid19-variants-summary) where they have the start date on when there are more than 90\\% of Omicron variant for each country. \n\n 👿 Problems, having difficulty compare weekly dates such as 01,02 ... 52 to 01,02,...12. The weeks startes from Sunday.  I want to find out if 2022-04(%Y%M) >= 2022-20(%Y%W). I tried a few things but it all didn't work for me. Tried `lubridate::parse_date_time()`, ` tsibble::yearmonth()` and `lubridate::month()` just for the weeks. Need to find a way to compare. Might not be necessary for the study. Would look into alternatives to support the Pre-Omicron period and Omicron period definition.  \n\n\n\n### Read papers related to Omicron and Kindey \n\nLooked up papers related to Omicron and Kidney in the database. There are in total 191 papers about Omicron variant and Kidney but majority of them are about Kidney transplant. \n\nOur study cohort 1321 is the largest cohort for kidney study so far. \n\n\n### A bit lost for the study and the three years phd \n\n😨 What's next? \n😱 What's the main message for this paper? \n😨 What's after this study? \n\n## Weekend plans \n\nGoing out Saturday for dinner, housework and work more on the visualisation for the study. \n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
