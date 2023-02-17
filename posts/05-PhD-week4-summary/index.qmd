@@ -1,0 +1,47 @@
+---
+title: "Week 4 summary - Loads of Lots Unexpected"
+date: "2023-2-17"
+categories: 
+  - data analysis
+  - ethic 
+  - social
+  - worrys 
+  - diary
+image: "featured.jpeg"
+---
+
+```{r}
+#| echo: fenced
+library(emo)
+```
+
+## To be honest I am a bit tired and sad writing this blog post `r emo::ji("disappointed")` 
+
+It's a tried week and lots of realisations. That research work is a never ending work. You might get a break when you get home but it never ends. And endless tears for me. `r emo::ji("cry")` 
+
+## Updates study cohort and regenerates table 1s and visulaisations 
+
+This week I got to have my very first meeting with all my supervisors. It went really well and we decided on limiting our study cohort to just two countries. 
+
+So for this week, I updated the table 1s and new visualisations for this Omicron paper. If we are happy with the latest results, I can begin to write the first draft for this paper. `r emo::ji("angel")` 
+
+And just when I thought that the results look promising, it took a 180 degree turn. It shows contradicted results with the new study cohort compare with last week. `r emo::ji("punctuation")` I guess I know what I will be doing this weekend. `r emo::ji("workout")` It's always hard when thing doesn't go as plan or exception. 
+
+
+## Learning the long road to getting ethic approval and medical data
+
+Apparently it will take unknown amount of time to get medical data approved for research studies. I know ethic will take a bit of time like a few months. But I never expected it will take forever as it is something I don't have control over. As a person who over-plan lots of thing, this really hit me hard. `r emo::ji("cry")` 
+
+
+
+## More inductions and social event 
+
+Attended FoM induction and it was really helpful for my PhD study. 
+
+Get to go to St Lucia and cath up with Hien. It was really good to catch up with Hien. Need a familiar face and someone to talk to. 
+
+
+
+
+
+
