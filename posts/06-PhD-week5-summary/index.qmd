@@ -1,0 +1,50 @@
+---
+title: "Week 5 summary - Making good progress"
+date: "2023-2-17"
+categories: 
+  - data analysis
+  - ethic 
+  - social
+  - worrys 
+  - diary
+image: "featured.jpeg"
+---
+
+```{r}
+#| echo: fenced
+library(emo)
+```
+
+## This is a productive week `r emo::ji("check")`
+
+Overall, raised from last week. Confirmed with my data and results. It was deficiently not something we expected but indeed interesting results.  
+
+Found a paper that is consistent with our study. But as there is a huge gap in between, it is hard to explain the results. As a person who has no medical knowledge, I scan through 194 papers that are related to kidney and Omicron. Picked out 27 papers that is related to my study. Only one paper looked into the different waves of covid and how that affect kidney. I will the the one trying to fill in this gap. The nephrologist on my team said that I am clearly working on an important topic. I guess this is why I choice to do a PhD and why I want to focus on medical research. It is the possibility that my research could be helping people. I would always remind myself that this is the reason why I am here. That is why I moved away from family and friends for a long time to do a PhD. Alongside with the faith and duty that driven me, there are always doubts when things don't go according to plan. Like Monday I can't help cried a bit for a stupid reason (too stupid to disclose here hhhh) and questioned myself why am I here. But quickly got cheered up in the afternoon when it got fixed. `r emo::ji("angel")`
+
+I hope I could be better at managing these little emotions and won't let them defect me. I am very lucky in a scene that growing up I have everything I wanted and needed. I have supportive parents that provided me the best education for me and never worried about finance. I have loving partner that encourage me to chase my dreams even it means that we are separated for a while. I have lovely friends that hold my hands when things are hard and guide me through it. Things have always worked out for me. Learning to accept would be my long term lesson.  `r emo::ji("biceps")`
+
+
+## When back and checked on orginal data 
+
+As the number from table seems to be unlikely, I went back to the original dataset and pulled the numbers out and checked. Out of 54 patients, there are 2 doesn't much due to the unit conversion. But even with the original test results, it shows a relatively high median. Looking forward to hearing the clinical explanation for it. With no medical background, I could only make socio-economic factors that could explain the results. I also got to share the office with one of the clinician on Monday and hear his insights. Apparently a sCr above 2000 umol/L is possible.  `r emo::ji("blush")`
+
+
+## Looked in to two more countires NPL and ESP
+
+One from high income country and one from low income country. They both shows interesting results as well. Need to double check on their original data as well. `r emo::ji("check")`
+
+## The tiring thing is not the deep work like coding, debugging and analysis but to communicate the results `r emo::ji("chart")`
+
+The analysis sometime could be hard but it is what I am good at. It's easy to pull a table out and look at some distributions ect. But I spend most of the time thinking about how to present this to my supervisors in a clear way. I am keeping a meeting minutes for all of our meetings. How to communicate the findings have taken up most of my time. As Emi taught me before, what story do I want to tell and what message do I want to deliver determine what plot I should do. Should I do box plots or histogram to show the distributions when there are extrema values? Should I do visualisations with text labels or should I just do a summary table? Hopefully with doing this more often, I could be better at it.  
+
+
+## Networking events 
+
+- SSA CAUSAL INFERENCE IN ECONOMETRICS AND HEALTH SCIENCES
+  - As an econometrician doing health sciences, I can definitely relate to both side. Most of the data we have are observational data. Without conducting carefully designed experiments with controls, it is hard to draw causal inference. But the fact is that, statistics sometimes are ideal. The assumptions for tests and models are ideal for the real world. The truth is that even for observational data, it is difficult to gain access. I remember when I first start working at public health on our CYCLED Study, I was constantly challenging my supervisor about our sample selection as it won't be representing our cycling population in Melbourne. After three months of recruitment in, I was more relaxed with the sample selection. After the data collection period, I was just happy that we have a good amount of data. 
+  - Great to know that there are promising career path in academic for me once I complete my PhD study. 
+  
+
+- R-Ladies Navigating Public Health Careers
+  - Good to know what career in public health looks like 
+
