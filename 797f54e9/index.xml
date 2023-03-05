@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>My PhD Journey Documentation</title>
+<link>https://danyangdai.github.io/PhD_diary/index.html</link>
+<atom:link href="https://danyangdai.github.io/PhD_diary/index.xml" rel="self" type="application/rss+xml"/>
+<description>Daily/Weekly journal for my PhD study</description>
+<generator>quarto-1.2.313</generator>
+<lastBuildDate>Sat, 04 Mar 2023 14:00:00 GMT</lastBuildDate>
+<item>
+  <title>Week 6 summary - PhD is not easy and shouldn’t be easy</title>
+  <dc:creator>Daidai</dc:creator>
+  <link>https://danyangdai.github.io/PhD_diary/posts/07-PhD-week6-summary/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="chanlleges" class="level2">
+<h2 class="anchored" data-anchor-id="chanlleges">Chanlleges</h2>
+<p>It has been a challenging week. The data we have still doesn’t make senses in for our nephrologist. She said the data is we have is highly unlikely. So I guess this is not consistent with what we been told by the other clinician last week. I pulled all the UK AKI Omicron patients’ data out and found more problems. As the data was handed to me after processing. This is where I was lacking a bit of curiosity. I didn’t fully understand all the code that lead to the results. When Nick handed over the project, we tested the code on my laptop. The results look promising and that is all I cared about. So when I was asked by my primary supervisor who wasn’t involved much in this project before, I couldn’t explain the process to him.</p>
+<p>I booked a meeting with the person who wrote the database coming up week so he can walk me through the process. I hope that it is me that make a mistake rather than the processing code. That would means that all the data and results are unreliable.</p>
+<p>At first, I thought that the first paper is going to be easy. I thought that I would have start drafting the paper by now. Can’t believe that we are still checking the data at this stage. But Mom said if anyone could just run some code on some data and get stratifying results, everyone can be a scientist. I shouldn’t have undermine the amount of work that it takes to produce a scientific paper.</p>
+<p>I did question about doing a PhD here when things aren’t going as planed. I mean I left all my family and friends to come to Brisbane for a PhD. But I do believe in my work and it shouldn’t be easy. PhD work should be challenging and that is where it becomes interesting. I am going to work harder to see this through.</p>
+</section>
+<section id="lesson-learnd" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-learnd">Lesson learnd</h2>
+<ul>
+<li><p>I can trust others work but I should always make sure that I understand it. Shouldn’t trust something that I can’t explain or don’t understand.</p></li>
+<li><p>When presenting a table with hundreds of variables to someone, make sure that all variables are clearly labeled.</p></li>
+</ul>
+</section>
+<section id="action-required" class="level2">
+<h2 class="anchored" data-anchor-id="action-required">Action required</h2>
+<ul>
+<li><p>Borrow some renal learning books from library</p></li>
+<li><p>Write study protocol for ethic application.</p></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>data analysis</category>
+  <category>ethic</category>
+  <category>debugging</category>
+  <guid>https://danyangdai.github.io/PhD_diary/posts/07-PhD-week6-summary/index.html</guid>
+  <pubDate>Sat, 04 Mar 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://danyangdai.github.io/PhD_diary/posts/07-PhD-week6-summary/featured.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Week 4 summary - Loads of Lots Unexpected</title>
+  <dc:creator>Daidai</dc:creator>
+  <link>https://danyangdai.github.io/PhD_diary/posts/05-PhD-week4-summary/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="in" style="color: #5E5E5E;">```{r}</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;">library</span>(emo)</span>
+<span id="cb1-3"><span class="in" style="color: #5E5E5E;">```</span></span></code></pre></div>
+</div>
+<section id="to-be-honest-i-am-a-bit-tired-and-sad-writing-this-blog-post" class="level2">
+<h2 class="anchored" data-anchor-id="to-be-honest-i-am-a-bit-tired-and-sad-writing-this-blog-post">To be honest I am a bit tired and sad writing this blog post 😞</h2>
+<p>It’s a tried week and lots of realisations. That research work is a never ending work. You might get a break when you get home but it never ends. And endless tears for me. 😢</p>
+</section>
+<section id="updates-study-cohort-and-regenerates-table-1s-and-visulaisations" class="level2">
+<h2 class="anchored" data-anchor-id="updates-study-cohort-and-regenerates-table-1s-and-visulaisations">Updates study cohort and regenerates table 1s and visulaisations</h2>
+<p>This week I got to have my very first meeting with all my supervisors. It went really well and we decided on limiting our study cohort to just two countries.</p>
+<p>So for this week, I updated the table 1s and new visualisations for this Omicron paper. If we are happy with the latest results, I can begin to write the first draft for this paper. 👼</p>
+<p>And just when I thought that the results look promising, it took a 180 degree turn. It shows contradicted results with the new study cohort compare with last week. ‼️ I guess I know what I will be doing this weekend. 🏃 It’s always hard when thing doesn’t go as plan or exception.</p>
+</section>
+<section id="learning-the-long-road-to-getting-ethic-approval-and-medical-data" class="level2">
+<h2 class="anchored" data-anchor-id="learning-the-long-road-to-getting-ethic-approval-and-medical-data">Learning the long road to getting ethic approval and medical data</h2>
+<p>Apparently it will take unknown amount of time to get medical data approved for research studies. I know ethic will take a bit of time like a few months. But I never expected it will take forever as it is something I don’t have control over. As a person who over-plan lots of thing, this really hit me hard. 😢</p>
+</section>
+<section id="more-inductions-and-social-event" class="level2">
+<h2 class="anchored" data-anchor-id="more-inductions-and-social-event">More inductions and social event</h2>
+<p>Attended FoM induction and it was really helpful for my PhD study.</p>
+<p>Get to go to St Lucia and cath up with Hien. It was really good to catch up with Hien. Need a familiar face and someone to talk to.</p>
+<p>Also tried to make brownies for shared morning tea but they didn’t really look like brownies…But they tasted good.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>data analysis</category>
+  <category>ethic</category>
+  <category>social</category>
+  <category>worrys</category>
+  <category>diary</category>
+  <guid>https://danyangdai.github.io/PhD_diary/posts/05-PhD-week4-summary/index.html</guid>
+  <pubDate>Thu, 16 Feb 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://danyangdai.github.io/PhD_diary/posts/05-PhD-week4-summary/featured.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Week 5 summary - Making good progress</title>
+  <dc:creator>Daidai</dc:creator>
+  <link>https://danyangdai.github.io/PhD_diary/posts/06-PhD-week5-summary/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="in" style="color: #5E5E5E;">```{r}</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;">library</span>(emo)</span>
+<span id="cb1-3"><span class="in" style="color: #5E5E5E;">```</span></span></code></pre></div>
+</div>
+<section id="this-is-a-productive-week" class="level2">
+<h2 class="anchored" data-anchor-id="this-is-a-productive-week">This is a productive week ✅</h2>
+<p>Overall, raised from last week. Confirmed with my data and results. It was deficiently not something we expected but indeed interesting results.</p>
+<p>Found a paper that is consistent with our study. But as there is a huge gap in between, it is hard to explain the results. As a person who has no medical knowledge, I scan through 194 papers that are related to kidney and Omicron. Picked out 27 papers that is related to my study. Only one paper looked into the different waves of covid and how that affect kidney. I will the the one trying to fill in this gap. The nephrologist on my team said that I am clearly working on an important topic. I guess this is why I choice to do a PhD and why I want to focus on medical research. It is the possibility that my research could be helping people. I would always remind myself that this is the reason why I am here. That is why I moved away from family and friends for a long time to do a PhD. Alongside with the faith and duty that driven me, there are always doubts when things don’t go according to plan. Like Monday I can’t help cried a bit for a stupid reason (too stupid to disclose here hhhh) and questioned myself why am I here. But quickly got cheered up in the afternoon when it got fixed. 👼</p>
+<p>I hope I could be better at managing these little emotions and won’t let them defect me. I am very lucky in a scene that growing up I have everything I wanted and needed. I have supportive parents that provided me the best education for me and never worried about finance. I have loving partner that encourage me to chase my dreams even it means that we are separated for a while. I have lovely friends that hold my hands when things are hard and guide me through it. Things have always worked out for me. Learning to accept would be my long term lesson. 💪</p>
+</section>
+<section id="when-back-and-checked-on-orginal-data" class="level2">
+<h2 class="anchored" data-anchor-id="when-back-and-checked-on-orginal-data">When back and checked on orginal data</h2>
+<p>As the number from table seems to be unlikely, I went back to the original dataset and pulled the numbers out and checked. Out of 54 patients, there are 2 doesn’t much due to the unit conversion. But even with the original test results, it shows a relatively high median. Looking forward to hearing the clinical explanation for it. With no medical background, I could only make socio-economic factors that could explain the results. I also got to share the office with one of the clinician on Monday and hear his insights. Apparently a sCr above 2000 umol/L is possible. 😊</p>
+</section>
+<section id="looked-in-to-two-more-countires-npl-and-esp" class="level2">
+<h2 class="anchored" data-anchor-id="looked-in-to-two-more-countires-npl-and-esp">Looked in to two more countires NPL and ESP</h2>
+<p>One from high income country and one from low income country. They both shows interesting results as well. Need to double check on their original data as well. ✅</p>
+</section>
+<section id="the-tiring-thing-is-not-the-deep-work-like-coding-debugging-and-analysis-but-to-communicate-the-results" class="level2">
+<h2 class="anchored" data-anchor-id="the-tiring-thing-is-not-the-deep-work-like-coding-debugging-and-analysis-but-to-communicate-the-results">The tiring thing is not the deep work like coding, debugging and analysis but to communicate the results 💹</h2>
+<p>The analysis sometime could be hard but it is what I am good at. It’s easy to pull a table out and look at some distributions ect. But I spend most of the time thinking about how to present this to my supervisors in a clear way. I am keeping a meeting minutes for all of our meetings. How to communicate the findings have taken up most of my time. As Emi taught me before, what story do I want to tell and what message do I want to deliver determine what plot I should do. Should I do box plots or histogram to show the distributions when there are extrema values? Should I do visualisations with text labels or should I just do a summary table? Hopefully with doing this more often, I could be better at it.</p>
+</section>
+<section id="networking-events" class="level2">
+<h2 class="anchored" data-anchor-id="networking-events">Networking events</h2>
+<ul>
+<li>SSA CAUSAL INFERENCE IN ECONOMETRICS AND HEALTH SCIENCES
+<ul>
+<li>As an econometrician doing health sciences, I can definitely relate to both side. Most of the data we have are observational data. Without conducting carefully designed experiments with controls, it is hard to draw causal inference. But the fact is that, statistics sometimes are ideal. The assumptions for tests and models are ideal for the real world. The truth is that even for observational data, it is difficult to gain access. I remember when I first start working at public health on our CYCLED Study, I was constantly challenging my supervisor about our sample selection as it won’t be representing our cycling population in Melbourne. After three months of recruitment in, I was more relaxed with the sample selection. After the data collection period, I was just happy that we have a good amount of data.</li>
+<li>Great to know that there are promising career path in academic for me once I complete my PhD study.</li>
+</ul></li>
+<li>R-Ladies Navigating Public Health Careers
+<ul>
+<li>Good to know what career in public health looks like</li>
+</ul></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>data analysis</category>
+  <category>ethic</category>
+  <category>social</category>
+  <category>worrys</category>
+  <category>diary</category>
+  <guid>https://danyangdai.github.io/PhD_diary/posts/06-PhD-week5-summary/index.html</guid>
+  <pubDate>Thu, 16 Feb 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://danyangdai.github.io/PhD_diary/posts/06-PhD-week5-summary/featured.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Week 3 summary - Ups and downs</title>
+  <dc:creator>Daidai</dc:creator>
+  <link>https://danyangdai.github.io/PhD_diary/posts/04-Phd-week3-summary/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="in" style="color: #5E5E5E;">```{r}</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;">library</span>(emo)</span>
+<span id="cb1-3"><span class="in" style="color: #5E5E5E;">```</span></span></code></pre></div>
+</div>
+<section id="worrying-about-the-phd-study---ups-and-downs" class="level2">
+<h2 class="anchored" data-anchor-id="worrying-about-the-phd-study---ups-and-downs">Worrying about the PhD study - Ups and downs</h2>
+<section id="had-very-first-phd-catch-up-with-principle-supervisor" class="level3">
+<h3 class="anchored" data-anchor-id="had-very-first-phd-catch-up-with-principle-supervisor">Had very first PhD catch up with principle supervisor</h3>
+<p>So happy that JP is feeling better and back at work. I was so happy! We had a very short catch up on my future career planning and he gave great advices. Lots of potential opportunities out there. From the short 30mins chat, he super supportive and happy to help me with whatever I need. 👼</p>
+<p>See meeting minutes in PhD_Projects.</p>
+</section>
+<section id="updated-pre-omicron-cohort-to-6-months" class="level3">
+<h3 class="anchored" data-anchor-id="updated-pre-omicron-cohort-to-6-months">Updated Pre-Omicron cohort to 6 months</h3>
+<p>Both Omicron and Pre-cohort table 1s are ready to go. See dropboxs and UQ_ISARIC_Omicron.</p>
+<p>Looked up paper: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9534549/">An international observational study to assess the impact of the Omicron variant emergence on the clinical epidemiology of COVID-19 in hospitalised patients</a> which uses the same dataset. They defined the Pre-Omicron period as two-month prior 10% of Omicron. Omicron period as two-month post 90% of Omicron for each country. That means each country has a different Omicron and Pre-Omicron period. I pulled the data from Github repo: <a href="https://github.com/globaldothealth/covid19-variants-summary">globaldothealth /covid19-variants-summary</a> where they have the start date on when there are more than 90% of Omicron variant for each country.</p>
+<p>👿 Problems, having difficulty compare weekly dates such as 01,02 … 52 to 01,02,…12. The weeks startes from Sunday. I want to find out if 2022-04(%Y%M) &gt;= 2022-20(%Y%W). I tried a few things but it all didn’t work for me. Tried <code>lubridate::parse_date_time()</code>, <code>tsibble::yearmonth()</code> and <code>lubridate::month()</code> just for the weeks. Need to find a way to compare. Might not be necessary for the study. Would look into alternatives to support the Pre-Omicron period and Omicron period definition.</p>
+</section>
+<section id="read-papers-related-to-omicron-and-kindey" class="level3">
+<h3 class="anchored" data-anchor-id="read-papers-related-to-omicron-and-kindey">Read papers related to Omicron and Kindey</h3>
+<p>Looked up papers related to Omicron and Kidney in the database. There are in total 191 papers about Omicron variant and Kidney but majority of them are about Kidney transplant.</p>
+<p>Our study cohort 1321 is the largest cohort for kidney study so far.</p>
+</section>
+<section id="a-bit-lost-for-the-study-and-the-three-years-phd" class="level3">
+<h3 class="anchored" data-anchor-id="a-bit-lost-for-the-study-and-the-three-years-phd">A bit lost for the study and the three years phd</h3>
+<p>😨 What’s next? 😱 What’s the main message for this paper? 😨 What’s after this study?</p>
+</section>
+</section>
+<section id="weekend-plans" class="level2">
+<h2 class="anchored" data-anchor-id="weekend-plans">Weekend plans</h2>
+<p>Going out Saturday for dinner, housework and work more on the visualisation for the study.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>literature reviews</category>
+  <category>worrys</category>
+  <guid>https://danyangdai.github.io/PhD_diary/posts/04-Phd-week3-summary/index.html</guid>
+  <pubDate>Thu, 09 Feb 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://danyangdai.github.io/PhD_diary/posts/04-Phd-week3-summary/featured.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Day 14 - nvm I did lost 1000 patients for the Omicron cohort</title>
+  <dc:creator>Daidai</dc:creator>
+  <link>https://danyangdai.github.io/PhD_diary/posts/03-Phd-day-14/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="set-back" class="level2">
+<h2 class="anchored" data-anchor-id="set-back">Set back</h2>
+<p>Ok I did lost around 1500 patients due to no valid outcome.</p>
+<p>In order to include more potential patients, need to fix the order of the workflow. Currently we are at wf3 (2 sCrs), then filter to either death, discharge or transfer. We have removed: unknown, still in hospital, ongoing follow-up and lost follow-up. We might consider be more inclusive by including still in hospital and ongoing follow-up.</p>
+<p>Question: Do we need the outcome variables? What’s the research focus for the first paper. Is it just the number of patients with AKI and no AKI?</p>
+
+
+</section>
+
+ ]]></description>
+  <category>debug</category>
+  <guid>https://danyangdai.github.io/PhD_diary/posts/03-Phd-day-14/index.html</guid>
+  <pubDate>Sun, 05 Feb 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://danyangdai.github.io/PhD_diary/posts/03-Phd-day-14/featured.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Second week PhD - cried already when debugging</title>
+  <dc:creator>Daidai</dc:creator>
+  <link>https://danyangdai.github.io/PhD_diary/posts/02-second-week-PhD/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="in" style="color: #5E5E5E;">```{r}</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;">library</span>(emo)</span>
+<span id="cb1-3"><span class="fu" style="color: #4758AB;">library</span>(readr)</span>
+<span id="cb1-4"><span class="in" style="color: #5E5E5E;">```</span></span></code></pre></div>
+</div>
+<section id="second-week-highlight---debugging" class="level2">
+<h2 class="anchored" data-anchor-id="second-week-highlight---debugging">Second week highlight - Debugging</h2>
+<section id="bug-1---after-updating-to-the-lastest-patients-logic-lost-around-1000-patients-for-the-study" class="level3">
+<h3 class="anchored" data-anchor-id="bug-1---after-updating-to-the-lastest-patients-logic-lost-around-1000-patients-for-the-study">Bug 1 - After updating to the lastest patients logic, lost around 1000 patients for the study</h3>
+<p>💥 After carefully comparing thousands of lines of code, I was finally able to get the patients outcome add up to the correct amount. However, we originally would have around 2800 patients for our study. That’s not a great start for my PhD, reducing study cohort from 2800 to 1300. I was definitely panicking. I kept telling myself, I need to find out why some of them are not included in the cohort any more.</p>
+<p>Looking through the updated table 1 for another study, I found out that their cohort has a significant decrease (around 2000ish) after changing the logic on outcome. So that means I am expected to have less patients for my study. I was wondering if that is because the patients I have might not have an outcome as they are more recent. After looking into a few lost data points, I found out that is not the case.</p>
+<p>I have already took a deep dive into all the workflow, database, many different scripts trying to identify the problem. Then it hit me, could it be that cohort definition was different? So I went back and checked when the cohort is first being defined and it turns out that the updated code uses <code>date &gt; 2020-01</code> and <code>date &lt; 2022-10</code>. Ah ha, it actually should have been <code>date &gt;= 2020-01</code> and <code>date &lt;= 2022-10</code>. After re-defining the variable, I’ve got 2000ish patients for my study which was such a relief. Note for myself, when comparing datetime, should use <code>readr::parse_date("2020-01", "%Y-%m")</code>. 🙏</p>
+</section>
+<section id="bug-2---quarto-publishing-website-via-github-action-failed" class="level3">
+<h3 class="anchored" data-anchor-id="bug-2---quarto-publishing-website-via-github-action-failed">Bug 2 - Quarto publishing website via github action failed</h3>
+<p>With this blogging website, I was planning to use the github action to prompt the updates automatically when I add a post. That means that this github action would need to able to render and publish. This is the first time I tried using github action. Before for my website, I was using <a href="https://www.netlify.com">Netlify</a> to deploy and publishing my website. (It’s pretty good and easy. Would recommend.) I was trying the github action that <a href="https://github.com/mine-cetinkaya-rundel/quarto-tip-a-day">mine-cetinkaya-rundel</a> was using for the github action. It was giving me error messages as below: <img src="https://danyangdai.github.io/PhD_diary/posts/02-second-week-PhD/error1.png" class="img-fluid"></p>
+<p>I wasn’t sure about why this is the case so I consulted with the expert - my partner <a href="https://github.com/mitchelloharawild">Mitch</a>. He reckon that the this github action was a bit outdated and he recommend using the <a href="https://github.com/quarto-dev/quarto-actions">Quarto recommended Github action</a>. After trying the new github action, I’ve got new error message when trying to publish and deploying. <img src="https://danyangdai.github.io/PhD_diary/posts/02-second-week-PhD/error2.png" class="img-fluid"></p>
+<p>I was struggling to find there this <code>_publish.yml</code> is generated and I can’t seem to find any reference about this. I spent a long time researching about this problem but unfortunately failed at this.</p>
+<p>I moved on to using <code>quarto publish gh-pages</code> in terminal.</p>
+</section>
+<section id="bug-3---github-authentication-failed-using-terminal" class="level3">
+<h3 class="anchored" data-anchor-id="bug-3---github-authentication-failed-using-terminal">Bug 3 - <a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github">Github authentication</a> failed using terminal</h3>
+<p>I am not very familiar using terminal for github let alone facing this authentication error. I first thought that I got my password wrong but after checking it is the correct one. The first suggestion I tried is using Person Access Token (PAT). I generated my token from Github and copied the password. But I don’t know how to use it. I tired <code>usethis</code> package which it seems to be pretty good. It stores the PAT in the <code>renv</code>. How to use it for authentication? I just tried use that as my Github password when terminal asked me to enter password. It doesn’t fix the authentication problem.</p>
+<p>I have to say I tried so many things and a lot of them didn’t work. I also tried a whole bunch stuff that might leads to the success. For mac user, try this:<a href="https://stackoverflow.com/questions/68775869/message-support-for-password-authentication-was-removed-please-use-a-personal">Message “Support for password authentication was removed. Please use a personal access token instead.”</a>.</p>
+<p>At the end of the day, something worked out for me. I think I would need to be better at documenting errors and solutions. When I am debugging, it’s easy to loss track what you’ve tried. Still figuring out the best practice for debugging workflow.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>debug</category>
+  <category>github</category>
+  <guid>https://danyangdai.github.io/PhD_diary/posts/02-second-week-PhD/index.html</guid>
+  <pubDate>Thu, 02 Feb 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://danyangdai.github.io/PhD_diary/posts/02-second-week-PhD/featured.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Starting PhD - First week</title>
+  <dc:creator>Daidai</dc:creator>
+  <link>https://danyangdai.github.io/PhD_diary/posts/01-first-couple-of-week/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="in" style="color: #5E5E5E;">```{r}</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;">library</span>(emo)</span>
+<span id="cb1-3"><span class="in" style="color: #5E5E5E;">```</span></span></code></pre></div>
+</div>
+<section id="starting-my-phd-at-uq" class="level2">
+<h2 class="anchored" data-anchor-id="starting-my-phd-at-uq">Starting my PhD at UQ</h2>
+<section id="move-from-melbourne-to-brisbane" class="level3">
+<h3 class="anchored" data-anchor-id="move-from-melbourne-to-brisbane">Move from Melbourne to Brisbane</h3>
+<p>After studying abroad in Melbourne for more than eight years, I moved to Brisbane for my PhD study. Leaving my friends and family, I packed sixteen boxes and three suitcases to come with me. Not going to lie, I felt emotional and scared (I would have cried writing this down if I wasn’t in the office). When I first moved to Melbourne from China, I was seventeen and have no idea what to expect. I was really lucky the whole time being taken care of by my loving homestay family and made lots great friends. This time, I know I will be alone in a unfamiliar city. But I know it is for the greater good, I want to do research and I have been working hard towards this PhD opportunity. This is such a great opportunity for me and I truly cherish this one in a life time opportunity to contribute to science. Lots of PhD friends been telling PhD journey is lonely anyway. Besides, my loving partner is in this PhD journey with me together. Being taken care of for the longest time, I would need to face whatever is coming by myself this time now. At least, need to make some reliable friends otherwise I would have to put my supervisor down as emergency contact lol.</p>
+</section>
+<section id="first-week-phd---in-the-office" class="level3">
+<h3 class="anchored" data-anchor-id="first-week-phd---in-the-office">First week PhD - in the office</h3>
+<p>Starting in January (RQ1) is not very ideal. All my supervisors have been on leave which is normally the cases for lots of workplaces. HR system setup has been slow as well as lots people on leave. So my first day I didn’t really have building access and I need the access to use the bathroom 💩 Lucky the centre manager helped me got building access within the first week.</p>
+<p>My first day at work, I met again with my principle supervisor. That’s the second time I felt that I belong here now. First time was last year when we first met and he invited me to the department end of year event. Unfortunately he’s unwell and I really appreciated that he came in just to meet me despite his illness.</p>
+<p>So yeah, due to no access to the toilet and no supervisor, that’s all the office time for PhD week 1. 😎 Please be aware, the emoji is using the <code>emo</code> package which means that I can only define a group of emoji and which one actually decide to show is random. I thought it would be fun as it would be random and surprising hahaha. 😶</p>
+</section>
+<section id="first-week-phd---work-work" class="level3">
+<h3 class="anchored" data-anchor-id="first-week-phd---work-work">First week PhD - work work</h3>
+<ul>
+<li><p>RQ1 HDR student Induction Went through available supports for HDR students.</p></li>
+<li><p>Zoomed in for a PhD confirmation.</p>
+<ul>
+<li>Her opening was interesting and led all the audience right into her topic. She began her presentation by telling us about her grandparents and Chris Hemsworth rising awareness dementia. That was good and effective.</li>
+<li>She presented well about her achievement for her first year PhD. It also inspired me to document my PhD journey. Not only as a diary where I can share my thoughts and feelings but also to record my works.</li>
+<li>She went overtime and there was a lot of detailed information which might not be needed? Not my expertises so not sure about that. But her visualisation could be better.</li>
+</ul></li>
+<li><p>Updated my code and everything broke 😦. Spent a good five/six hours debugging it. Still didn’t work. ⛽</p></li>
+<li><p>Did safety trainings and applied for building access.</p></li>
+<li><p>Wrote a bit of my future career goals after PhD study.</p></li>
+</ul>
+</section>
+<section id="made-my-very-first-friend-in-brisbane" class="level3">
+<h3 class="anchored" data-anchor-id="made-my-very-first-friend-in-brisbane">Made my very first friend in Brisbane</h3>
+<p>Went out for dinner with her and we really hit it off. Going out again soon. ❤️</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>diary</category>
+  <guid>https://danyangdai.github.io/PhD_diary/posts/01-first-couple-of-week/index.html</guid>
+  <pubDate>Mon, 30 Jan 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://danyangdai.github.io/PhD_diary/posts/01-first-couple-of-week/featured.jpeg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>
