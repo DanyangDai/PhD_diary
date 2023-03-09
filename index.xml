@@ -53,53 +53,6 @@
   <media:content url="https://danyangdai.github.io/PhD_diary/posts/07-PhD-week6-summary/featured.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>Week 4 summary - Loads of Lots Unexpected</title>
-  <dc:creator>Daidai</dc:creator>
-  <link>https://danyangdai.github.io/PhD_diary/posts/05-PhD-week4-summary/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="in" style="color: #5E5E5E;">```{r}</span></span>
-<span id="cb1-2"><span class="fu" style="color: #4758AB;">library</span>(emo)</span>
-<span id="cb1-3"><span class="in" style="color: #5E5E5E;">```</span></span></code></pre></div>
-</div>
-<section id="to-be-honest-i-am-a-bit-tired-and-sad-writing-this-blog-post" class="level2">
-<h2 class="anchored" data-anchor-id="to-be-honest-i-am-a-bit-tired-and-sad-writing-this-blog-post">To be honest I am a bit tired and sad writing this blog post 😞</h2>
-<p>It’s a tried week and lots of realisations. That research work is a never ending work. You might get a break when you get home but it never ends. And endless tears for me. 😢</p>
-</section>
-<section id="updates-study-cohort-and-regenerates-table-1s-and-visulaisations" class="level2">
-<h2 class="anchored" data-anchor-id="updates-study-cohort-and-regenerates-table-1s-and-visulaisations">Updates study cohort and regenerates table 1s and visulaisations</h2>
-<p>This week I got to have my very first meeting with all my supervisors. It went really well and we decided on limiting our study cohort to just two countries.</p>
-<p>So for this week, I updated the table 1s and new visualisations for this Omicron paper. If we are happy with the latest results, I can begin to write the first draft for this paper. 👼</p>
-<p>And just when I thought that the results look promising, it took a 180 degree turn. It shows contradicted results with the new study cohort compare with last week. ‼️ I guess I know what I will be doing this weekend. 🏃 It’s always hard when thing doesn’t go as plan or exception.</p>
-</section>
-<section id="learning-the-long-road-to-getting-ethic-approval-and-medical-data" class="level2">
-<h2 class="anchored" data-anchor-id="learning-the-long-road-to-getting-ethic-approval-and-medical-data">Learning the long road to getting ethic approval and medical data</h2>
-<p>Apparently it will take unknown amount of time to get medical data approved for research studies. I know ethic will take a bit of time like a few months. But I never expected it will take forever as it is something I don’t have control over. As a person who over-plan lots of thing, this really hit me hard. 😢</p>
-</section>
-<section id="more-inductions-and-social-event" class="level2">
-<h2 class="anchored" data-anchor-id="more-inductions-and-social-event">More inductions and social event</h2>
-<p>Attended FoM induction and it was really helpful for my PhD study.</p>
-<p>Get to go to St Lucia and cath up with Hien. It was really good to catch up with Hien. Need a familiar face and someone to talk to.</p>
-<p>Also tried to make brownies for shared morning tea but they didn’t really look like brownies…But they tasted good.</p>
-
-
-</section>
-
- ]]></description>
-  <category>data analysis</category>
-  <category>ethic</category>
-  <category>social</category>
-  <category>worrys</category>
-  <category>diary</category>
-  <guid>https://danyangdai.github.io/PhD_diary/posts/05-PhD-week4-summary/index.html</guid>
-  <pubDate>Thu, 16 Feb 2023 14:00:00 GMT</pubDate>
-  <media:content url="https://danyangdai.github.io/PhD_diary/posts/05-PhD-week4-summary/featured.jpeg" medium="image" type="image/jpeg"/>
-</item>
-<item>
   <title>Week 5 summary - Making good progress</title>
   <dc:creator>Daidai</dc:creator>
   <link>https://danyangdai.github.io/PhD_diary/posts/06-PhD-week5-summary/index.html</link>
@@ -155,8 +108,55 @@
   <category>worrys</category>
   <category>diary</category>
   <guid>https://danyangdai.github.io/PhD_diary/posts/06-PhD-week5-summary/index.html</guid>
-  <pubDate>Thu, 16 Feb 2023 14:00:00 GMT</pubDate>
+  <pubDate>Thu, 23 Feb 2023 14:00:00 GMT</pubDate>
   <media:content url="https://danyangdai.github.io/PhD_diary/posts/06-PhD-week5-summary/featured.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Week 4 summary - Loads of Lots Unexpected</title>
+  <dc:creator>Daidai</dc:creator>
+  <link>https://danyangdai.github.io/PhD_diary/posts/05-PhD-week4-summary/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="in" style="color: #5E5E5E;">```{r}</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;">library</span>(emo)</span>
+<span id="cb1-3"><span class="in" style="color: #5E5E5E;">```</span></span></code></pre></div>
+</div>
+<section id="to-be-honest-i-am-a-bit-tired-and-sad-writing-this-blog-post" class="level2">
+<h2 class="anchored" data-anchor-id="to-be-honest-i-am-a-bit-tired-and-sad-writing-this-blog-post">To be honest I am a bit tired and sad writing this blog post 😞</h2>
+<p>It’s a tried week and lots of realisations. That research work is a never ending work. You might get a break when you get home but it never ends. And endless tears for me. 😢</p>
+</section>
+<section id="updates-study-cohort-and-regenerates-table-1s-and-visulaisations" class="level2">
+<h2 class="anchored" data-anchor-id="updates-study-cohort-and-regenerates-table-1s-and-visulaisations">Updates study cohort and regenerates table 1s and visulaisations</h2>
+<p>This week I got to have my very first meeting with all my supervisors. It went really well and we decided on limiting our study cohort to just two countries.</p>
+<p>So for this week, I updated the table 1s and new visualisations for this Omicron paper. If we are happy with the latest results, I can begin to write the first draft for this paper. 👼</p>
+<p>And just when I thought that the results look promising, it took a 180 degree turn. It shows contradicted results with the new study cohort compare with last week. ‼️ I guess I know what I will be doing this weekend. 🏃 It’s always hard when thing doesn’t go as plan or exception.</p>
+</section>
+<section id="learning-the-long-road-to-getting-ethic-approval-and-medical-data" class="level2">
+<h2 class="anchored" data-anchor-id="learning-the-long-road-to-getting-ethic-approval-and-medical-data">Learning the long road to getting ethic approval and medical data</h2>
+<p>Apparently it will take unknown amount of time to get medical data approved for research studies. I know ethic will take a bit of time like a few months. But I never expected it will take forever as it is something I don’t have control over. As a person who over-plan lots of thing, this really hit me hard. 😢</p>
+</section>
+<section id="more-inductions-and-social-event" class="level2">
+<h2 class="anchored" data-anchor-id="more-inductions-and-social-event">More inductions and social event</h2>
+<p>Attended FoM induction and it was really helpful for my PhD study.</p>
+<p>Get to go to St Lucia and cath up with Hien. It was really good to catch up with Hien. Need a familiar face and someone to talk to.</p>
+<p>Also tried to make brownies for shared morning tea but they didn’t really look like brownies…But they tasted good.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>data analysis</category>
+  <category>ethic</category>
+  <category>social</category>
+  <category>worrys</category>
+  <category>diary</category>
+  <guid>https://danyangdai.github.io/PhD_diary/posts/05-PhD-week4-summary/index.html</guid>
+  <pubDate>Thu, 16 Feb 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://danyangdai.github.io/PhD_diary/posts/05-PhD-week4-summary/featured.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Week 3 summary - Ups and downs</title>
