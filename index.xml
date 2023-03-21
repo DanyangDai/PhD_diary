@@ -10,7 +10,61 @@
 <atom:link href="https://danyangdai.github.io/PhD_diary/index.xml" rel="self" type="application/rss+xml"/>
 <description>Daily/Weekly journal for my PhD study</description>
 <generator>quarto-1.2.313</generator>
-<lastBuildDate>Sat, 04 Mar 2023 14:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 20 Mar 2023 14:00:00 GMT</lastBuildDate>
+<item>
+  <title>A three weekish summary</title>
+  <dc:creator>Daidai</dc:creator>
+  <link>https://danyangdai.github.io/PhD_diary/posts/08-PhD-week7-summary/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="in" style="color: #5E5E5E;">```{r}</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;">library</span>(emo)</span>
+<span id="cb1-3"><span class="in" style="color: #5E5E5E;">```</span></span></code></pre></div>
+</div>
+<section id="not-sure-how-to-begin-with" class="level2">
+<h2 class="anchored" data-anchor-id="not-sure-how-to-begin-with">Not sure how to begin with…</h2>
+<p>It all started with some very large medium sCr for some patients. The rest of story I decided not to share here. 🙏</p>
+<p>Of everything that happened, I definitely learnt a lot.</p>
+<ul>
+<li>When raising a problem, use terms like “You might be interested in this…”</li>
+<li>Always make sure that everything is well documented. EVERYTHING. From conversation to code. Meeting minutes, every decision made.</li>
+<li>When some code doesn’t make senses, always ask</li>
+<li>When taking over a project, make sure you check everything even when told not to spend too much time on it. Again, you can trust your boss and team-mate but make sure you understand what they are doing!</li>
+</ul>
+</section>
+<section id="progress" class="level2">
+<h2 class="anchored" data-anchor-id="progress">Progress</h2>
+<p>Even there are some minor set backs, overall we are still moving forward. After identifying the problem, of course I provided solutions. Under each solution, there are pros and cons. Lucky it doesn’t changed the overall results for my project. Re-generated table 1 and compared results. Ethic application is still under going at stage 1. Study protocol draft 1 will be completed by this week. Still worried that I haven’t done enough.</p>
+</section>
+<section id="happy-thoughts" class="level2">
+<h2 class="anchored" data-anchor-id="happy-thoughts">Happy thoughts</h2>
+<p>It was really great when Mitch came and visited. I finally feel like it is home again. Everything feel lighter when he’s around. Probably because I can actually depend on him when he’s around. Not need to do or worry about a lot of stuff myself.</p>
+<p>He also got me this new website <a href="http://blog.daidai.au/">http://blog.daidai.au/</a> under my own domain.</p>
+<p>Really looking forward to going back to Melbourne. 🛩</p>
+</section>
+<section id="brisbane-weather" class="level2">
+<h2 class="anchored" data-anchor-id="brisbane-weather">Brisbane weather</h2>
+<p>Still 30 degree everyday in late March…Looking at the monthly average temperature, 6 months out of 12 months have temperature above 26 degrees. Coming from Melbourne where half of the year is winter to Brisbane where half of year is summer really burned out my body. I am having a hard time adjusting to the weather and managing the stress. Hopefully the lily lotus seeds and mung bean soup I made would help me manage the heat.</p>
+</section>
+<section id="spelling-check" class="level2">
+<h2 class="anchored" data-anchor-id="spelling-check">Spelling check</h2>
+<p>Mitch told me that my blog is full of spelling errors and typos. And when I show him my work emails, they are professional and no grammar mistakes at all. He said “so you can be better.” Of course can! English is my second language and I need to master it. During working hours, I would always double and triple check my English before send it out. Originally I didn’t want to do anything about it. This blog is more like a diary to me where I am more relaxed and verbally sounded. Just in case someone don’t know who I am and decide to use my blog as the first source to know me, I decide to be more professional. I won’t correct the previous blog posts as they are part of me.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>data analysis</category>
+  <category>debugging</category>
+  <category>writting</category>
+  <guid>https://danyangdai.github.io/PhD_diary/posts/08-PhD-week7-summary/index.html</guid>
+  <pubDate>Mon, 20 Mar 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://danyangdai.github.io/PhD_diary/posts/08-PhD-week7-summary/featured.jpeg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Week 6 summary - PhD is not easy and shouldn’t be easy</title>
   <dc:creator>Daidai</dc:creator>
@@ -20,18 +74,18 @@
 
 
 
-<section id="chanlleges" class="level2">
-<h2 class="anchored" data-anchor-id="chanlleges">Chanlleges</h2>
+<section id="challenges" class="level2">
+<h2 class="anchored" data-anchor-id="challenges">Challenges</h2>
 <p>It has been a challenging week. The data we have still doesn’t make senses in for our nephrologist. She said the data is we have is highly unlikely. So I guess this is not consistent with what we been told by the other clinician last week. I pulled all the UK AKI Omicron patients’ data out and found more problems. As the data was handed to me after processing. This is where I was lacking a bit of curiosity. I didn’t fully understand all the code that lead to the results. When Nick handed over the project, we tested the code on my laptop. The results look promising and that is all I cared about. So when I was asked by my primary supervisor who wasn’t involved much in this project before, I couldn’t explain the process to him.</p>
 <p>I booked a meeting with the person who wrote the database coming up week so he can walk me through the process. I hope that it is me that make a mistake rather than the processing code. That would means that all the data and results are unreliable.</p>
 <p>At first, I thought that the first paper is going to be easy. I thought that I would have start drafting the paper by now. Can’t believe that we are still checking the data at this stage. But Mom said if anyone could just run some code on some data and get stratifying results, everyone can be a scientist. I shouldn’t have undermine the amount of work that it takes to produce a scientific paper.</p>
 <p>I did question about doing a PhD here when things aren’t going as planed. I mean I left all my family and friends to come to Brisbane for a PhD. But I do believe in my work and it shouldn’t be easy. PhD work should be challenging and that is where it becomes interesting. I am going to work harder to see this through.</p>
 </section>
-<section id="lesson-learnd" class="level2">
-<h2 class="anchored" data-anchor-id="lesson-learnd">Lesson learnd</h2>
+<section id="lesson-learned" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-learned">Lesson learned</h2>
 <ul>
 <li><p>I can trust others work but I should always make sure that I understand it. Shouldn’t trust something that I can’t explain or don’t understand.</p></li>
-<li><p>When presenting a table with hundreds of variables to someone, make sure that all variables are clearly labeled.</p></li>
+<li><p>When presenting a table with hundreds of variables to someone, make sure that all variables are clearly labelled.</p></li>
 </ul>
 </section>
 <section id="action-required" class="level2">

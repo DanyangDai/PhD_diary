@@ -28,6 +28,48 @@
     "text": "Second week highlight - Debugging\n\nBug 1 - After updating to the lastest patients logic, lost around 1000 patients for the study\n💥 After carefully comparing thousands of lines of code, I was finally able to get the patients outcome add up to the correct amount. However, we originally would have around 2800 patients for our study. That’s not a great start for my PhD, reducing study cohort from 2800 to 1300. I was definitely panicking. I kept telling myself, I need to find out why some of them are not included in the cohort any more.\nLooking through the updated table 1 for another study, I found out that their cohort has a significant decrease (around 2000ish) after changing the logic on outcome. So that means I am expected to have less patients for my study. I was wondering if that is because the patients I have might not have an outcome as they are more recent. After looking into a few lost data points, I found out that is not the case.\nI have already took a deep dive into all the workflow, database, many different scripts trying to identify the problem. Then it hit me, could it be that cohort definition was different? So I went back and checked when the cohort is first being defined and it turns out that the updated code uses date > 2020-01 and date < 2022-10. Ah ha, it actually should have been date >= 2020-01 and date <= 2022-10. After re-defining the variable, I’ve got 2000ish patients for my study which was such a relief. Note for myself, when comparing datetime, should use readr::parse_date(\"2020-01\", \"%Y-%m\"). 🙏\n\n\nBug 2 - Quarto publishing website via github action failed\nWith this blogging website, I was planning to use the github action to prompt the updates automatically when I add a post. That means that this github action would need to able to render and publish. This is the first time I tried using github action. Before for my website, I was using Netlify to deploy and publishing my website. (It’s pretty good and easy. Would recommend.) I was trying the github action that mine-cetinkaya-rundel was using for the github action. It was giving me error messages as below: \nI wasn’t sure about why this is the case so I consulted with the expert - my partner Mitch. He reckon that the this github action was a bit outdated and he recommend using the Quarto recommended Github action. After trying the new github action, I’ve got new error message when trying to publish and deploying. \nI was struggling to find there this _publish.yml is generated and I can’t seem to find any reference about this. I spent a long time researching about this problem but unfortunately failed at this.\nI moved on to using quarto publish gh-pages in terminal.\n\n\nBug 3 - Github authentication failed using terminal\nI am not very familiar using terminal for github let alone facing this authentication error. I first thought that I got my password wrong but after checking it is the correct one. The first suggestion I tried is using Person Access Token (PAT). I generated my token from Github and copied the password. But I don’t know how to use it. I tired usethis package which it seems to be pretty good. It stores the PAT in the renv. How to use it for authentication? I just tried use that as my Github password when terminal asked me to enter password. It doesn’t fix the authentication problem.\nI have to say I tried so many things and a lot of them didn’t work. I also tried a whole bunch stuff that might leads to the success. For mac user, try this:Message “Support for password authentication was removed. Please use a personal access token instead.”.\nAt the end of the day, something worked out for me. I think I would need to be better at documenting errors and solutions. When I am debugging, it’s easy to loss track what you’ve tried. Still figuring out the best practice for debugging workflow."
   },
   {
+    "objectID": "posts/08-PhD-week7-summary/index.html",
+    "href": "posts/08-PhD-week7-summary/index.html",
+    "title": "A three weekish summary",
+    "section": "",
+    "text": "```{r}\nlibrary(emo)\n```"
+  },
+  {
+    "objectID": "posts/08-PhD-week7-summary/index.html#not-sure-how-to-begin-with",
+    "href": "posts/08-PhD-week7-summary/index.html#not-sure-how-to-begin-with",
+    "title": "A three weekish summary",
+    "section": "Not sure how to begin with…",
+    "text": "Not sure how to begin with…\nIt all started with some very large medium sCr for some patients. The rest of story I decided not to share here. 🙏\nOf everything that happened, I definitely learnt a lot.\n\nWhen raising a problem, use terms like “You might be interested in this…”\nAlways make sure that everything is well documented. EVERYTHING. From conversation to code. Meeting minutes, every decision made.\nWhen some code doesn’t make senses, always ask\nWhen taking over a project, make sure you check everything even when told not to spend too much time on it. Again, you can trust your boss and team-mate but make sure you understand what they are doing!"
+  },
+  {
+    "objectID": "posts/08-PhD-week7-summary/index.html#progress",
+    "href": "posts/08-PhD-week7-summary/index.html#progress",
+    "title": "A three weekish summary",
+    "section": "Progress",
+    "text": "Progress\nEven there are some minor set backs, overall we are still moving forward. After identifying the problem, of course I provided solutions. Under each solution, there are pros and cons. Lucky it doesn’t changed the overall results for my project. Re-generated table 1 and compared results. Ethic application is still under going at stage 1. Study protocol draft 1 will be completed by this week. Still worried that I haven’t done enough."
+  },
+  {
+    "objectID": "posts/08-PhD-week7-summary/index.html#happy-thoughts",
+    "href": "posts/08-PhD-week7-summary/index.html#happy-thoughts",
+    "title": "A three weekish summary",
+    "section": "Happy thoughts",
+    "text": "Happy thoughts\nIt was really great when Mitch came and visited. I finally feel like it is home again. Everything feel lighter when he’s around. Probably because I can actually depend on him when he’s around. Not need to do or worry about a lot of stuff myself.\nHe also got me this new website http://blog.daidai.au/ under my own domain.\nReally looking forward to going back to Melbourne. 🛩"
+  },
+  {
+    "objectID": "posts/08-PhD-week7-summary/index.html#brisbane-weather",
+    "href": "posts/08-PhD-week7-summary/index.html#brisbane-weather",
+    "title": "A three weekish summary",
+    "section": "Brisbane weather",
+    "text": "Brisbane weather\nStill 30 degree everyday in late March…Looking at the monthly average temperature, 6 months out of 12 months have temperature above 26 degrees. Coming from Melbourne where half of the year is winter to Brisbane where half of year is summer really burned out my body. I am having a hard time adjusting to the weather and managing the stress. Hopefully the lily lotus seeds and mung bean soup I made would help me manage the heat."
+  },
+  {
+    "objectID": "posts/08-PhD-week7-summary/index.html#spelling-check",
+    "href": "posts/08-PhD-week7-summary/index.html#spelling-check",
+    "title": "A three weekish summary",
+    "section": "Spelling check",
+    "text": "Spelling check\nMitch told me that my blog is full of spelling errors and typos. And when I show him my work emails, they are professional and no grammar mistakes at all. He said “so you can be better.” Of course can! English is my second language and I need to master it. During working hours, I would always double and triple check my English before send it out. Originally I didn’t want to do anything about it. This blog is more like a diary to me where I am more relaxed and verbally sounded. Just in case someone don’t know who I am and decide to use my blog as the first source to know me, I decide to be more professional. I won’t correct the previous blog posts as they are part of me."
+  },
+  {
     "objectID": "posts/03-Phd-day-14/index.html",
     "href": "posts/03-Phd-day-14/index.html",
     "title": "Day 14 - nvm I did lost 1000 patients for the Omicron cohort",
@@ -140,11 +182,11 @@
     "text": "It has been a challenging week. The data we have still doesn’t make senses in for our nephrologist. She said the data is we have is highly unlikely. So I guess this is not consistent with what we been told by the other clinician last week. I pulled all the UK AKI Omicron patients’ data out and found more problems. As the data was handed to me after processing. This is where I was lacking a bit of curiosity. I didn’t fully understand all the code that lead to the results. When Nick handed over the project, we tested the code on my laptop. The results look promising and that is all I cared about. So when I was asked by my primary supervisor who wasn’t involved much in this project before, I couldn’t explain the process to him.\nI booked a meeting with the person who wrote the database coming up week so he can walk me through the process. I hope that it is me that make a mistake rather than the processing code. That would means that all the data and results are unreliable.\nAt first, I thought that the first paper is going to be easy. I thought that I would have start drafting the paper by now. Can’t believe that we are still checking the data at this stage. But Mom said if anyone could just run some code on some data and get stratifying results, everyone can be a scientist. I shouldn’t have undermine the amount of work that it takes to produce a scientific paper.\nI did question about doing a PhD here when things aren’t going as planed. I mean I left all my family and friends to come to Brisbane for a PhD. But I do believe in my work and it shouldn’t be easy. PhD work should be challenging and that is where it becomes interesting. I am going to work harder to see this through."
   },
   {
-    "objectID": "posts/07-PhD-week6-summary/index.html#lesson-learnd",
-    "href": "posts/07-PhD-week6-summary/index.html#lesson-learnd",
+    "objectID": "posts/07-PhD-week6-summary/index.html#lesson-learned",
+    "href": "posts/07-PhD-week6-summary/index.html#lesson-learned",
     "title": "Week 6 summary - PhD is not easy and shouldn’t be easy",
-    "section": "Lesson learnd",
-    "text": "Lesson learnd\n\nI can trust others work but I should always make sure that I understand it. Shouldn’t trust something that I can’t explain or don’t understand.\nWhen presenting a table with hundreds of variables to someone, make sure that all variables are clearly labeled."
+    "section": "Lesson learned",
+    "text": "Lesson learned\n\nI can trust others work but I should always make sure that I understand it. Shouldn’t trust something that I can’t explain or don’t understand.\nWhen presenting a table with hundreds of variables to someone, make sure that all variables are clearly labelled."
   },
   {
     "objectID": "posts/07-PhD-week6-summary/index.html#action-required",
@@ -158,7 +200,7 @@
     "href": "index.html",
     "title": "My PhD Journey Documentation",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWeek 6 summary - PhD is not easy and shouldn’t be easy\n\n\n\n\n\n\nMar 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5 summary - Making good progress\n\n\n\n\n\n\nFeb 24, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4 summary - Loads of Lots Unexpected\n\n\n\n\n\n\nFeb 17, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3 summary - Ups and downs\n\n\n\n\n\n\nFeb 10, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDay 14 - nvm I did lost 1000 patients for the Omicron cohort\n\n\n\n\n\n\nFeb 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSecond week PhD - cried already when debugging\n\n\n\n\n\n\nFeb 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStarting PhD - First week\n\n\n\n\n\n\nJan 31, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nA three weekish summary\n\n\n\n\n\n\nMar 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6 summary - PhD is not easy and shouldn’t be easy\n\n\n\n\n\n\nMar 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5 summary - Making good progress\n\n\n\n\n\n\nFeb 24, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4 summary - Loads of Lots Unexpected\n\n\n\n\n\n\nFeb 17, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3 summary - Ups and downs\n\n\n\n\n\n\nFeb 10, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDay 14 - nvm I did lost 1000 patients for the Omicron cohort\n\n\n\n\n\n\nFeb 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSecond week PhD - cried already when debugging\n\n\n\n\n\n\nFeb 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStarting PhD - First week\n\n\n\n\n\n\nJan 31, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
