@@ -8,26 +8,24 @@ categories:
 image: "featured.jpeg"
 ---
 
+## Challenges
 
-## Chanlleges 
+It has been a challenging week. The data we have still doesn't make senses in for our nephrologist. She said the data is we have is highly unlikely. So I guess this is not consistent with what we been told by the other clinician last week. I pulled all the UK AKI Omicron patients' data out and found more problems. As the data was handed to me after processing. This is where I was lacking a bit of curiosity. I didn't fully understand all the code that lead to the results. When Nick handed over the project, we tested the code on my laptop. The results look promising and that is all I cared about. So when I was asked by my primary supervisor who wasn't involved much in this project before, I couldn't explain the process to him.
 
-It has been a challenging week. The data we have still doesn't make senses in for our nephrologist. She said the data is we have is highly unlikely. So I guess this is not consistent with what we been told by the other clinician last week. I pulled all the UK AKI Omicron patients' data out and found more problems. As the data was handed to me after processing. This is where I was lacking a bit of curiosity. I didn't fully understand all the code that lead to the results. When Nick handed over the project, we tested the code on my laptop. The results look promising and that is all I cared about. So when I was asked by my primary supervisor who wasn't involved much in this project before, I couldn't explain the process to him. 
+I booked a meeting with the person who wrote the database coming up week so he can walk me through the process. I hope that it is me that make a mistake rather than the processing code. That would means that all the data and results are unreliable.
 
-I booked a meeting with the person who wrote the database coming up week so he can walk me through the process. I hope that it is me that make a mistake rather than the processing code. That would means that all the data and results are unreliable. 
+At first, I thought that the first paper is going to be easy. I thought that I would have start drafting the paper by now. Can't believe that we are still checking the data at this stage. But Mom said if anyone could just run some code on some data and get stratifying results, everyone can be a scientist. I shouldn't have undermine the amount of work that it takes to produce a scientific paper.
 
-At first, I thought that the first paper is going to be easy. I thought that I would have start drafting the paper by now. Can't believe that we are still checking the data at this stage. But Mom said if anyone could just run some code on some data and get stratifying results, everyone can be a scientist. I shouldn't have undermine the amount of work that it takes to produce a scientific paper. 
+I did question about doing a PhD here when things aren't going as planed. I mean I left all my family and friends to come to Brisbane for a PhD. But I do believe in my work and it shouldn't be easy. PhD work should be challenging and that is where it becomes interesting. I am going to work harder to see this through.
 
-I did question about doing a PhD here when things aren't going as planed. I mean I left all my family and friends to come to Brisbane for a PhD. But I do believe in my work and it shouldn't be easy. PhD work should be challenging and that is where it becomes interesting. I am going to work harder to see this through.  
+## Lesson learned
 
-## Lesson learnd
+-   I can trust others work but I should always make sure that I understand it. Shouldn't trust something that I can't explain or don't understand.
 
-- I can trust others work but I should always make sure that I understand it. Shouldn't trust something that I can't explain or don't understand. 
+-   When presenting a table with hundreds of variables to someone, make sure that all variables are clearly labelled.
 
-- When presenting a table with hundreds of variables to someone, make sure that all variables are clearly labeled. 
+## Action required
 
-## Action required 
+-   Borrow some renal learning books from library
 
-- Borrow some renal learning books from library 
-
-- Write study protocol for ethic application. 
-
+-   Write study protocol for ethic application.
