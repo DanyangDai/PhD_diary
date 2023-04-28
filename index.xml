@@ -9,11 +9,106 @@
 <link>https://danyangdai.github.io/PhD_diary/index.html</link>
 <atom:link href="https://danyangdai.github.io/PhD_diary/index.xml" rel="self" type="application/rss+xml"/>
 <description>Daily/Weekly journal for my PhD study</description>
-<generator>quarto-1.2.313</generator>
-<lastBuildDate>Mon, 20 Mar 2023 14:00:00 GMT</lastBuildDate>
+<generator>quarto-1.3.340</generator>
+<lastBuildDate>Sun, 16 Apr 2023 14:00:00 GMT</lastBuildDate>
+<item>
+  <title>A three months summary</title>
+  <dc:creator>Daidai </dc:creator>
+  <link>https://danyangdai.github.io/PhD_diary/posts/09-PhD-3-months-summary/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```{r}</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(emo)</span>
+<span id="cb1-3"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```</span></span></code></pre></div>
+</div>
+<section id="time-fly" class="level2">
+<h2 class="anchored" data-anchor-id="time-fly">Time fly 🕊</h2>
+<p>Time fly when you don’t realize. It has been three months since I started my PhD and I have to say I wish I could have done more. The first 6 weeks are quite chill. Just doing my thing and taking the break I needed. After my supervisor and I decided that it is time for me to start from the beginning, I know I need to work harder and get things done.</p>
+<section id="progress-on-re-processing-the-data" class="level3">
+<h3 class="anchored" data-anchor-id="progress-on-re-processing-the-data">Progress on re-processing the data</h3>
+<p>It was harder than I expected. 😢 It was going well until I needed to work on the text analysis. I guess I didn’t expected that it was going to be that time consuming going through hundreds of entries of treatments. Secretly I actually enjoyed it. 🏥 It feels like playing the doctor game when you are young and the dream of becoming a doctor are coming true. That’s what I felt during the first few hours of researching what does each treatment and drug is used for. When the day gets darker, I just so glad I am not a medical doctor. There were only around five hundreds of different treatment and medical records and I was exhausted and forgetful. Can’t image what true MD needs to remember. I mean there are some pattern in the names of drugs. For example, if it ends with “sone”, it’s probably some sort of corticosteroid. If it ends with “CILLIN” or “CLINE”, it’s probably some sort of antibiotic.</p>
+</section>
+<section id="excited-for-the-first-academic-conference-acs-ozcots-2023" class="level3">
+<h3 class="anchored" data-anchor-id="excited-for-the-first-academic-conference-acs-ozcots-2023">Excited for the first academic conference ACS &amp; OZCOTS 2023!</h3>
+<p>Thanks for the support from my principal supervisor and Emi, I am going to the ACS &amp; OZCOTS at the end of this year! Hoping that the presentation abstract about our <a href="https://learnr.numbat.space">learnR</a> will get accepted.</p>
+</section>
+</section>
+<section id="trip-back-to-melbourne-and-easter-break" class="level2">
+<h2 class="anchored" data-anchor-id="trip-back-to-melbourne-and-easter-break">Trip back to Melbourne and Easter break</h2>
+<section id="things-changed" class="level3">
+<h3 class="anchored" data-anchor-id="things-changed">Things changed</h3>
+<p>👦 My study now is officially Yan’s room. I am happy for him at the same time it was hard to see a warm and comfy study been turned into a man room.</p>
+<p>👯 Our home is now with four people living in it so busier than before.</p>
+<p>😢 I am no longer working for Monash anymore.</p>
+<p>🐟 The fish tank I didn’t really like before are more clean now. So I guess I like it better than before now.</p>
+<p>Oh okay. I thought I would have more thing to say about things that changed but I guess everything is kinda same old same old.</p>
+</section>
+<section id="things-didnt-change" class="level3">
+<h3 class="anchored" data-anchor-id="things-didnt-change">Things didn’t change</h3>
+<p>☂️ Melbourne is still cold and wet.</p>
+<p>🍵 Top tea is still super yummy and the best milk tea place!</p>
+<p>🥧 强记烧腊 is still really good. Same quality and quantity since I first start eating there since undergraduate.</p>
+<p>💑 Friends are still all round. I missed everyone and it was really good to see them.</p>
+<p>I miss the time where we just catch up whenever because we know that we are always around. Now we can only catch up with a strict timeline.</p>
+</section>
+<section id="highligts-of-the-trip" class="level3">
+<h3 class="anchored" data-anchor-id="highligts-of-the-trip">highligts of the trip</h3>
+<p>No.1 My very first Winnie the Pooh birthday cake made my Mitch</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://danyangdai.github.io/PhD_diary/posts/09-PhD-3-months-summary/featured.jpeg" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<p>No.2 Hot pot with Emi and friends</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://danyangdai.github.io/PhD_diary/posts/09-PhD-3-months-summary/hl_5.jpeg" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<p>No.3 Birthday with Mitch at Dandenong rain-forest</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://danyangdai.github.io/PhD_diary/posts/09-PhD-3-months-summary/hl_2.jpeg" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<p><img src="https://danyangdai.github.io/PhD_diary/posts/09-PhD-3-months-summary/hl_4.jpeg" class="img-fluid"></p>
+<p>No.4 Second Pooh bear cake with home grown pumpkin in the background</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://danyangdai.github.io/PhD_diary/posts/09-PhD-3-months-summary/hl_3.jpeg" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<p>No.5 Birthday card signed by friends who made it to my party. Love how academic driven everyone’s wish is lol.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://danyangdai.github.io/PhD_diary/posts/09-PhD-3-months-summary/hl_1.jpeg" class="img-fluid figure-img"></p>
+</figure>
+</div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>diary</category>
+  <category>writting</category>
+  <guid>https://danyangdai.github.io/PhD_diary/posts/09-PhD-3-months-summary/index.html</guid>
+  <pubDate>Sun, 16 Apr 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://danyangdai.github.io/PhD_diary/posts/09-PhD-3-months-summary/featured.jpeg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>A three weekish summary</title>
-  <dc:creator>Daidai</dc:creator>
+  <dc:creator>Daidai </dc:creator>
   <link>https://danyangdai.github.io/PhD_diary/posts/08-PhD-week7-summary/index.html</link>
   <description><![CDATA[ 
 
@@ -21,9 +116,15 @@
 
 
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="in" style="color: #5E5E5E;">```{r}</span></span>
-<span id="cb1-2"><span class="fu" style="color: #4758AB;">library</span>(emo)</span>
-<span id="cb1-3"><span class="in" style="color: #5E5E5E;">```</span></span></code></pre></div>
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```{r}</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(emo)</span>
+<span id="cb1-3"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```</span></span></code></pre></div>
 </div>
 <section id="not-sure-how-to-begin-with" class="level2">
 <h2 class="anchored" data-anchor-id="not-sure-how-to-begin-with">Not sure how to begin with…</h2>
@@ -67,7 +168,7 @@
 </item>
 <item>
   <title>Week 6 summary - PhD is not easy and shouldn’t be easy</title>
-  <dc:creator>Daidai</dc:creator>
+  <dc:creator>Daidai </dc:creator>
   <link>https://danyangdai.github.io/PhD_diary/posts/07-PhD-week6-summary/index.html</link>
   <description><![CDATA[ 
 
@@ -108,7 +209,7 @@
 </item>
 <item>
   <title>Week 5 summary - Making good progress</title>
-  <dc:creator>Daidai</dc:creator>
+  <dc:creator>Daidai </dc:creator>
   <link>https://danyangdai.github.io/PhD_diary/posts/06-PhD-week5-summary/index.html</link>
   <description><![CDATA[ 
 
@@ -116,9 +217,15 @@
 
 
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="in" style="color: #5E5E5E;">```{r}</span></span>
-<span id="cb1-2"><span class="fu" style="color: #4758AB;">library</span>(emo)</span>
-<span id="cb1-3"><span class="in" style="color: #5E5E5E;">```</span></span></code></pre></div>
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```{r}</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(emo)</span>
+<span id="cb1-3"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```</span></span></code></pre></div>
 </div>
 <section id="this-is-a-productive-week" class="level2">
 <h2 class="anchored" data-anchor-id="this-is-a-productive-week">This is a productive week ✅</h2>
@@ -167,7 +274,7 @@
 </item>
 <item>
   <title>Week 4 summary - Loads of Lots Unexpected</title>
-  <dc:creator>Daidai</dc:creator>
+  <dc:creator>Daidai </dc:creator>
   <link>https://danyangdai.github.io/PhD_diary/posts/05-PhD-week4-summary/index.html</link>
   <description><![CDATA[ 
 
@@ -175,9 +282,15 @@
 
 
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="in" style="color: #5E5E5E;">```{r}</span></span>
-<span id="cb1-2"><span class="fu" style="color: #4758AB;">library</span>(emo)</span>
-<span id="cb1-3"><span class="in" style="color: #5E5E5E;">```</span></span></code></pre></div>
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```{r}</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(emo)</span>
+<span id="cb1-3"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```</span></span></code></pre></div>
 </div>
 <section id="to-be-honest-i-am-a-bit-tired-and-sad-writing-this-blog-post" class="level2">
 <h2 class="anchored" data-anchor-id="to-be-honest-i-am-a-bit-tired-and-sad-writing-this-blog-post">To be honest I am a bit tired and sad writing this blog post 😞</h2>
@@ -214,7 +327,7 @@
 </item>
 <item>
   <title>Week 3 summary - Ups and downs</title>
-  <dc:creator>Daidai</dc:creator>
+  <dc:creator>Daidai </dc:creator>
   <link>https://danyangdai.github.io/PhD_diary/posts/04-Phd-week3-summary/index.html</link>
   <description><![CDATA[ 
 
@@ -222,9 +335,15 @@
 
 
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="in" style="color: #5E5E5E;">```{r}</span></span>
-<span id="cb1-2"><span class="fu" style="color: #4758AB;">library</span>(emo)</span>
-<span id="cb1-3"><span class="in" style="color: #5E5E5E;">```</span></span></code></pre></div>
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```{r}</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(emo)</span>
+<span id="cb1-3"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```</span></span></code></pre></div>
 </div>
 <section id="worrying-about-the-phd-study---ups-and-downs" class="level2">
 <h2 class="anchored" data-anchor-id="worrying-about-the-phd-study---ups-and-downs">Worrying about the PhD study - Ups and downs</h2>
@@ -265,7 +384,7 @@
 </item>
 <item>
   <title>Day 14 - nvm I did lost 1000 patients for the Omicron cohort</title>
-  <dc:creator>Daidai</dc:creator>
+  <dc:creator>Daidai </dc:creator>
   <link>https://danyangdai.github.io/PhD_diary/posts/03-Phd-day-14/index.html</link>
   <description><![CDATA[ 
 
@@ -289,7 +408,7 @@
 </item>
 <item>
   <title>Second week PhD - cried already when debugging</title>
-  <dc:creator>Daidai</dc:creator>
+  <dc:creator>Daidai </dc:creator>
   <link>https://danyangdai.github.io/PhD_diary/posts/02-second-week-PhD/index.html</link>
   <description><![CDATA[ 
 
@@ -297,10 +416,18 @@
 
 
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="in" style="color: #5E5E5E;">```{r}</span></span>
-<span id="cb1-2"><span class="fu" style="color: #4758AB;">library</span>(emo)</span>
-<span id="cb1-3"><span class="fu" style="color: #4758AB;">library</span>(readr)</span>
-<span id="cb1-4"><span class="in" style="color: #5E5E5E;">```</span></span></code></pre></div>
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```{r}</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(emo)</span>
+<span id="cb1-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(readr)</span>
+<span id="cb1-4"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```</span></span></code></pre></div>
 </div>
 <section id="second-week-highlight---debugging" class="level2">
 <h2 class="anchored" data-anchor-id="second-week-highlight---debugging">Second week highlight - Debugging</h2>
@@ -336,7 +463,7 @@
 </item>
 <item>
   <title>Starting PhD - First week</title>
-  <dc:creator>Daidai</dc:creator>
+  <dc:creator>Daidai </dc:creator>
   <link>https://danyangdai.github.io/PhD_diary/posts/01-first-couple-of-week/index.html</link>
   <description><![CDATA[ 
 
@@ -344,9 +471,15 @@
 
 
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="in" style="color: #5E5E5E;">```{r}</span></span>
-<span id="cb1-2"><span class="fu" style="color: #4758AB;">library</span>(emo)</span>
-<span id="cb1-3"><span class="in" style="color: #5E5E5E;">```</span></span></code></pre></div>
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```{r}</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(emo)</span>
+<span id="cb1-3"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```</span></span></code></pre></div>
 </div>
 <section id="starting-my-phd-at-uq" class="level2">
 <h2 class="anchored" data-anchor-id="starting-my-phd-at-uq">Starting my PhD at UQ</h2>
