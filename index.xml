@@ -10,7 +10,65 @@
 <atom:link href="https://danyangdai.github.io/PhD_diary/index.xml" rel="self" type="application/rss+xml"/>
 <description>Daily/Weekly journal for my PhD study</description>
 <generator>quarto-1.3.340</generator>
-<lastBuildDate>Sun, 16 Apr 2023 14:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 18 May 2023 14:00:00 GMT</lastBuildDate>
+<item>
+  <title>A four months summary</title>
+  <dc:creator>Daidai </dc:creator>
+  <link>https://danyangdai.github.io/PhD_diary/posts/10-PhD-Day95/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```{r}</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(emo)</span>
+<span id="cb1-3"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```</span></span></code></pre></div>
+</div>
+<section id="helping-others-is-helping-yourself" class="level1">
+<h1>Helping others is helping yourself</h1>
+<p>It is very sad to see that I haven’t made much progress on my Omicron study. For the past a few weeks, I have been busy helping out on the LLMIC paper. All my supervisors suggested that working on this project is an easy win for me as I won’t spending much time on this and I will be added as an coauthor on the paper. But it is taking longer than I expected to work on some of the analysis and visualizations. I think I did pretty well with task. And I was given second authorship on the paper.</p>
+<p>Here are some difficult visualization that I never thought I would be able to produce. For example, adding survival table under survival curve. It can be easily achieved with <code>survminer</code> package. But if we want to group the table and the curves with different colors, it might not be as easy as just using the package.</p>
+<p>If we want to plot two set of survival curves on the same plot, with <code>survminer</code> package, it provides opportunity to do this in the easy way by using <code>gsurvplot_combine()</code>. Same thing can be achieved with survival table.</p>
+<p>The difficulty I encountered is that the first author of the paper want the curve and table get group with different colors. That being said, simply using <code>ggsurvplot_combine()</code> would not be able to distinguish that as it will only support consistent groups of color. I tired a few different ways by manually supply three color code in a sequence and repeat once so I have one color for two variables. But as there are two sets of survival curves with three variables in each one, it would not recognize the same color code. So I had to gave up on using <code>ggsurvplot_combine()</code>.</p>
+<p>Then I discovered package <code>patchwork</code> which allow us to arrange plots or tables easily. In order to meet the requirement, I extracted the data for from the survival curve analysis for both plotting the curves as well as the table. With all the information I need, I am able to create the survival curve and the table separately. Then using <code>patchwork</code> to stacked them together. It was a lot of exploring in to something I haven’t been doing much before. I am actually glad that they pushed me to my limited for me to explore more options. If that’s something people are interested in, I am happy to do a demo on plotting the two survival curves.</p>
+</section>
+<section id="continous-learning-and-reading-on-papers-and-writting-ethic-protocal" class="level1">
+<h1>Continous learning and reading on papers and writting ethic protocal</h1>
+<p>As a person who has always been able to look at the data, play with it, plot it, fit regression and complex model with it, it is difficult for me to think about what I want to do with the data I am asking but have no idea what they look like. Most of the outcomes and objectives are very broad. It is definitely something new and challenging to me. Hopefully with the second revision of the study protocol, we can submit soon so I can move on to other important things.</p>
+<p>While re-writing the ethic protocol, I get to read again with all the papers regarding to kidney disease. surprisingly a lot of the medical terms doesn’t scare me anymore and they look familiar. It seems from all my reading that AKI is likely to be the result of inflammation which lead to unbalanced pressure in the kidney tubule area. But isn’t a lot of the disease results of inflammation? I think there are a lot more pathology and etiology for me to study.</p>
+</section>
+<section id="went-to-tropical-fruit-world" class="level1">
+<h1>Went to tropical fruit world 🍅</h1>
+<p>It was a fun trip and get to see a lot of tropical fruit. Like the jackfruit in the featured picture. Tried this miracle berry that changes your taste bud and make lime super sweet!</p>
+</section>
+<section id="mitch-got-baby-chicks" class="level1">
+<h1>Mitch got baby chicks 🐤🐥🐥</h1>
+<p>OMG they are so cute! Wish I were there to cuddle them! 🐣</p>
+<p>Mitch also set up an live stream of them awwww. So we can watch them from anywhere everywhere!</p>
+<p><img src="https://danyangdai.github.io/PhD_diary/posts/10-PhD-Day95/chick_1.jpeg" class="img-fluid" data-fig-align="center"> <img src="https://danyangdai.github.io/PhD_diary/posts/10-PhD-Day95/chick_2.jpeg" class="img-fluid" data-fig-align="center"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://danyangdai.github.io/PhD_diary/posts/10-PhD-Day95/chick_3.jpeg" class="img-fluid figure-img"></p>
+</figure>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>diary</category>
+  <category>writting</category>
+  <guid>https://danyangdai.github.io/PhD_diary/posts/10-PhD-Day95/index.html</guid>
+  <pubDate>Thu, 18 May 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://danyangdai.github.io/PhD_diary/posts/10-PhD-Day95/featured.jpeg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>A three months summary</title>
   <dc:creator>Daidai </dc:creator>
