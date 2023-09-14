@@ -280,6 +280,69 @@
     "text": "Action required\n\nBorrow some renal learning books from library\nWrite study protocol for ethic application."
   },
   {
+    "objectID": "posts/12-PhD-more/index.html",
+    "href": "posts/12-PhD-more/index.html",
+    "title": "There is always more to do",
+    "section": "",
+    "text": "It has been a while since I documented my PhD journey and I would like to start with sharing some great news.\n\n\nHelping out on this paper helped me realized how long it takes to publish a paper. I have now lowered my expectation on the number of papers I might be able to publish during my PhD time.\n\n\n\nI am not only going to the ASC AND OZCOTS 2023 end of the year but also presenting part of our LearnR project. I will be sharing the design and some insights into our self-paced introduction to R. I am going to be focusing on giving students the confidence and skills to learn R themselves."
+  },
+  {
+    "objectID": "posts/12-PhD-more/index.html#very-first-paper-published-association-of-country-income-level-with-the-characteristics-and-outcomes-of-critically-ill-patients-hospitalized-with-acute-kidney-injury-and-covid-19",
+    "href": "posts/12-PhD-more/index.html#very-first-paper-published-association-of-country-income-level-with-the-characteristics-and-outcomes-of-critically-ill-patients-hospitalized-with-acute-kidney-injury-and-covid-19",
+    "title": "There is always more to do",
+    "section": "",
+    "text": "Helping out on this paper helped me realized how long it takes to publish a paper. I have now lowered my expectation on the number of papers I might be able to publish during my PhD time."
+  },
+  {
+    "objectID": "posts/12-PhD-more/index.html#very-first-conference-presentation-accepted",
+    "href": "posts/12-PhD-more/index.html#very-first-conference-presentation-accepted",
+    "title": "There is always more to do",
+    "section": "",
+    "text": "I am not only going to the ASC AND OZCOTS 2023 end of the year but also presenting part of our LearnR project. I will be sharing the design and some insights into our self-paced introduction to R. I am going to be focusing on giving students the confidence and skills to learn R themselves."
+  },
+  {
+    "objectID": "posts/12-PhD-more/index.html#drafted-and-pretty-much-finalised-ethic-study-protocal-to-submit-to-hear",
+    "href": "posts/12-PhD-more/index.html#drafted-and-pretty-much-finalised-ethic-study-protocal-to-submit-to-hear",
+    "title": "There is always more to do",
+    "section": "Drafted and pretty much finalised Ethic study protocal to submit to HEAR",
+    "text": "Drafted and pretty much finalised Ethic study protocal to submit to HEAR\nAfter a couple time of comments from my principle supervisor, it looks good to go now. Just need the other two supervisors to prove the study protocol. Hoping to start this long road of Ethic application as soon as possible."
+  },
+  {
+    "objectID": "posts/12-PhD-more/index.html#omicron-aki-paper-progress",
+    "href": "posts/12-PhD-more/index.html#omicron-aki-paper-progress",
+    "title": "There is always more to do",
+    "section": "Omicron AKI paper progress",
+    "text": "Omicron AKI paper progress\nCompeted data cleaning and identifying AKI patients. Updated table 1. Survival analysis and regression analysis.\nLooking forward to sharing some of the main findings with all the supervisors."
+  },
+  {
+    "objectID": "posts/12-PhD-more/index.html#variable-transfomation",
+    "href": "posts/12-PhD-more/index.html#variable-transfomation",
+    "title": "There is always more to do",
+    "section": "Variable transfomation",
+    "text": "Variable transfomation\nIt bugs me for a long time on the variables I should be including in my regression analysis. The question I want to answer is that whether Omicron patients have a higher chance of developing AKI compare to pre-Omicron variant.\nFirst, the variables such as blood pressure, sCr, age ect. they are not linear. There is a clear lower and upper bond for these variables. There are a few different ways I could handle this.\nTruncated all these variables and bin them. For example, age can be truncated into patients age &lt; 65 and age &gt; 65. Same goes with blood pressure. Systolic blood pressure can be bined from [100,140) to four or five groups. This binning methods is relatively easy to implementation. In R, you can use cut() function to do that. But the downside is that you will lose information on these variables as they are suppose to be continue variables within a certain range but binning will convert them into categorical variables.\nTransformations on the variables. If you have a general understanding of which distribution your data is, use QQ plot to compare your data with the potential distribution you have in mind. If not entirely sure about the data, just plot the histogram of the data to have a look at the distribution. Alternatively, use gladder() function from the describedata package to see which transformation is most suitable. This process require judgement on which transformation to make. It would also increase the difficulty on the interpretations on your regression analysis.\nAcknowledge on the model misspecification and justify the standard errors with sandwich estimator. Use sandwich estimator to generate robust standard errors would allow for unbiased parameters estimated. I think this would be the method I go with for my analysis. ## Variable selection, simultaneous effect and multicollinearity\nVariable selection suggested by my principle supervisor should be driven by the literature which I agree. However, this could create a lot of problems for regression modelling.\nThere are simultaneous effect with a lot of my predictors and outcome. For example, my dependent variable is AKI positive or not which is binary. I want to include death and icu as controls. Because we know from recent research and my data that Omicron has less severe outcome in terms of lower death rate and lower icu rate. So that controlling for these outcome, whether Omicron variant results in a higher rate of AKI incidents. But we also know that AKI patients has a higher death rate and higher icu rate. Maybe I will use simultaneous causal equations for this.\nMulticollinearity is another issue. As pretty much all variables I am including are all somewhat correlated to each other. It’s like common senses that ICU is highly correlated to Death. High White Blood Cell count is associated with inflammation in the body and it can also be correlated with other controls I am including. Still need to work out if this is something I need to worry too much about."
+  },
+  {
+    "objectID": "posts/12-PhD-more/index.html#missingness-and-imputation",
+    "href": "posts/12-PhD-more/index.html#missingness-and-imputation",
+    "title": "There is always more to do",
+    "section": "Missingness and imputation",
+    "text": "Missingness and imputation\nBefore in Econometrics sitting, I don’t think I have ever needed to worry about NAs. They either don’t exits in my data or they are just automatically handled when modelling because they are very little NAs in the data.\nFor my current analysis, out of 9000ish patients records, only 3000ish have completed records. With this amount of missingness in my data, I would need to learn what is the most correct way of dealing with it.\nThe first step is to identify whether the records are missing completely at random (MCAR). This is a very new term for me which I just learnt about reading Regression Modeling Strategies With Applications to Linear Models, Logistic and Ordinal Regression, and Survival Analysis by Frank E. Harrell, Jr. BTW would recommend. It is easy to read. If you decide or know that your missing is completely at random, then not doing anything about them would not introduce bias to your parameter estimates.\nTo examinate the relationship of your missingness, you can do some regression analysis on the missing variables. i.e. the probability of missing comorbidities records is depended on the country. Alternatively, you can use md.pattern from the mice package to check the relationship between your missing values. If you data if relatively small and have a small number of variables you are looking, use naniar package to explore missing values is also great and easy.\nOnce decided that your variables aren’t MCAR, need to decide whether it is ok to impute some variables. For instant, I decided not to impute for death, icu, sex and race. Race has a high missingness at 80% and I don’t think the data have the ability to impute race. Same with sex. Sex only has around 2% of missing and I don’t think you can impute whether the patient is male or female. For death and icu, they all have low missing around 2% and I decide not to impute for them.\nWith mice function, include all variables that you think could help to impute missing values.\nI did worry about how validate my regression analysis is going to be with this amount of imputation and model specification problems. We shall see how it goes."
+  },
+  {
+    "objectID": "posts/12-PhD-more/index.html#got-my-roof-top-garden-set-up",
+    "href": "posts/12-PhD-more/index.html#got-my-roof-top-garden-set-up",
+    "title": "There is always more to do",
+    "section": "Got my roof top garden set up!",
+    "text": "Got my roof top garden set up!\nMitch got me lights and Pooh bear sign to go on it."
+  },
+  {
+    "objectID": "posts/12-PhD-more/index.html#first-time-on-the-ferry",
+    "href": "posts/12-PhD-more/index.html#first-time-on-the-ferry",
+    "title": "There is always more to do",
+    "section": "First time on the Ferry!",
+    "text": "First time on the Ferry!"
+  },
+  {
     "objectID": "posts/09-PhD-3-months-summary/index.html",
     "href": "posts/09-PhD-3-months-summary/index.html",
     "title": "A three months summary",
@@ -301,11 +364,32 @@
     "text": "Trip back to Melbourne and Easter break\n\nThings changed\n👦 My study now is officially Yan’s room. I am happy for him at the same time it was hard to see a warm and comfy study been turned into a man room.\n👯 Our home is now with four people living in it so busier than before.\n😢 I am no longer working for Monash anymore.\n🐟 The fish tank I didn’t really like before are more clean now. So I guess I like it better than before now.\nOh okay. I thought I would have more thing to say about things that changed but I guess everything is kinda same old same old.\n\n\nThings didn’t change\n☂️ Melbourne is still cold and wet.\n🍵 Top tea is still super yummy and the best milk tea place!\n🥧 强记烧腊 is still really good. Same quality and quantity since I first start eating there since undergraduate.\n💑 Friends are still all round. I missed everyone and it was really good to see them.\nI miss the time where we just catch up whenever because we know that we are always around. Now we can only catch up with a strict timeline.\n\n\nhighligts of the trip\nNo.1 My very first Winnie the Pooh birthday cake made my Mitch\n\n\n\n\n\nNo.2 Hot pot with Emi and friends\n\n\n\n\n\nNo.3 Birthday with Mitch at Dandenong rain-forest\n\n\n\n\n\n\nNo.4 Second Pooh bear cake with home grown pumpkin in the background\n\n\n\n\n\nNo.5 Birthday card signed by friends who made it to my party. Love how academic driven everyone’s wish is lol."
   },
   {
+    "objectID": "posts/13-PhD-recent-life/index.html",
+    "href": "posts/13-PhD-recent-life/index.html",
+    "title": "Recent life and paper writting",
+    "section": "",
+    "text": "It took a while to get the very first draft paper ready to share with supervisors. It actually took longer than I expected. Not that I am not working hard on it but sometime it depends on feedback from supervisors. But it is finally happening. I was so excited to share the first draft among my supervisors like a proud mom finally given birth to a child and want to show it off. But learning the entire process of publishing rules and journal selecting make me realize that “given birth” to your manuscript is really just the starting point. To “rise a child” (i.e. getting your paper published in decent journal), there are still a lot to do.\nThe comments I’ve got at this stage are pretty much regarding to grammar and English writing. I am disappointed in myself and thought I should have done better. But also felt bad for my “baby” to be judged with English problems, even everyone is telling me that it is common and don’t feel bad about it. I am getting it polished using all kind of tools available such as Grammarly and ChatGPT. I am aware that I tend to write long and winded sentences. Cutting them down in a concise way is difficult. Because I put a lot of effort into drafting it up, every word means something to me. But on the other hand, it means nothing to the readers or sometime it confuses them.\nThis very first draft of manuscript is currently circling around with my supervisors, the next step would be sending it to other collaborators for internal reviews. After that would be submitting to journals. This long and headaching journey is what my future going to look like. The research work and analysis stage is like “pregnancy” where you collect data, develop methods and doing the analysis work. Writing the paper is like the “given birth” stage where you “push” for your manuscript. Polishing and internal peer reviews are like dress up and educating your manuscript. Then prepare for your “baby” for pre-school (relatively lower ranking journals) or high school (higher ranking journals) or tertiary educations (top ranking journals like Nature/The Lancet). And of course the journal processing fees varies as well. Tertiary education tend to costs more.\nI guess this is all part of PhD and asking myself if I do want this to be the rest of my life. Doing research is fun and rewarding. But getting rejections and criticism is also part of it. It’s all part of the deal. I don’t have any kids at this stage but I could already imagine what is like actually having a kid. You put a lot of 心血 (heart and blood, meaning pouring your heart and sole) into it and it can be sometime rewarding but also disappointing from time to time.\nI hope I could get over of this negative feeling about my manuscript and polishing it to the next level soon."
+  },
+  {
+    "objectID": "posts/13-PhD-recent-life/index.html#first-time-visiting-university-of-sydney-was-amazed-by-the-campus.",
+    "href": "posts/13-PhD-recent-life/index.html#first-time-visiting-university-of-sydney-was-amazed-by-the-campus.",
+    "title": "Recent life and paper writting",
+    "section": "First time visiting University of Sydney! Was amazed by the campus.",
+    "text": "First time visiting University of Sydney! Was amazed by the campus."
+  },
+  {
+    "objectID": "posts/13-PhD-recent-life/index.html#gold-coast-with-mom",
+    "href": "posts/13-PhD-recent-life/index.html#gold-coast-with-mom",
+    "title": "Recent life and paper writting",
+    "section": "Gold Coast with mom",
+    "text": "Gold Coast with mom\n\n\n\n\n\n\n\n\n\n\nSo many lizards!"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "My PhD Journey Documentation",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nIt’s been a while\n\n\n\n\n\n\nJun 30, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA four months summary\n\n\n\n\n\n\nMay 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA three months summary\n\n\n\n\n\n\nApr 17, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA three weekish summary\n\n\n\n\n\n\nMar 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6 summary - PhD is not easy and shouldn’t be easy\n\n\n\n\n\n\nMar 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5 summary - Making good progress\n\n\n\n\n\n\nFeb 24, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4 summary - Loads of Lots Unexpected\n\n\n\n\n\n\nFeb 17, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3 summary - Ups and downs\n\n\n\n\n\n\nFeb 10, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDay 14 - nvm I did lost 1000 patients for the Omicron cohort\n\n\n\n\n\n\nFeb 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSecond week PhD - cried already when debugging\n\n\n\n\n\n\nFeb 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStarting PhD - First week\n\n\n\n\n\n\nJan 31, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nRecent life and paper writting\n\n\n\n\n\n\nSep 14, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIt’s been a while\n\n\n\n\n\n\nJun 30, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThere is always more to do\n\n\n\n\n\n\nJun 30, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA four months summary\n\n\n\n\n\n\nMay 19, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA three months summary\n\n\n\n\n\n\nApr 17, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA three weekish summary\n\n\n\n\n\n\nMar 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 6 summary - PhD is not easy and shouldn’t be easy\n\n\n\n\n\n\nMar 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 5 summary - Making good progress\n\n\n\n\n\n\nFeb 24, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 4 summary - Loads of Lots Unexpected\n\n\n\n\n\n\nFeb 17, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 3 summary - Ups and downs\n\n\n\n\n\n\nFeb 10, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDay 14 - nvm I did lost 1000 patients for the Omicron cohort\n\n\n\n\n\n\nFeb 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSecond week PhD - cried already when debugging\n\n\n\n\n\n\nFeb 3, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStarting PhD - First week\n\n\n\n\n\n\nJan 31, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
